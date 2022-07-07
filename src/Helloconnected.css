@@ -1,0 +1,90 @@
+body {
+    background-color: #2C2828 ;
+  }
+
+.name {
+    position: absolute;
+    width: 435px;
+    height: 53px;
+    left: 67px;
+    top: 62px;
+
+    font-family: 'xpaider pixel explosion 02';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 52px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2em;
+
+    color: #F20FC6;
+
+}
+
+.greeting {
+    position: absolute;
+    width: 298px;
+    height: 21px;
+    left: 67px;
+    top: 139px;
+
+    font-family: 'xpaider pixel explosion 02';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 21px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2em;
+    white-space: nowrap;
+
+    color: #C646E6;
+}
+
+.sc{
+    position: absolute;
+    width: 459px;
+    height: 36px;
+    left: 573px;
+    top: 776px;
+
+    font-family: 'xpaider pixel explosion 02';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 36px;
+    white-space: nowrap;
+    /* identical to box height */
+
+display: flex;
+align-items: center;
+letter-spacing: 0.2em;
+
+color: #F20FC6;
+
+}
+
+.dot {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    left: 464px;
+    top: 307px;
+
+    background-color: #F20FC6;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+.spotifylogo{
+    position: absolute;
+    width: 58px;
+    height: 58px;
+    left: 479px;
+    top: 800px;
+  }

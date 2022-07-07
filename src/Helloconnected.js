@@ -1,5 +1,7 @@
 import React from 'react'
-import './hello-connected.css'
+import './Helloconnected.css'
+import wink from './images/wink.png'
+import logo from './images/spotifylogo.png'
 
 function HelloName(){
     return (
@@ -17,8 +19,14 @@ function SpotifyConnected(){
     return(
         <div>
             <h4 className='sc'>SPOTIFY CONNECTED</h4>
-            <img className='spotifylogo' src="./spotifylogo.png" width = '40px'/>
+            <img className='spotifylogo' src={logo} width = '40px'/>
         </div>
+    )
+}
+
+function Wink(){
+    return(
+        <img className='wink' src={wink} />
     )
 }
 
@@ -27,6 +35,7 @@ function App(){
         <div>
             <HelloName />
             <Greeting />
+            <Wink />
             <SpotifyConnected />
         </div>
     )

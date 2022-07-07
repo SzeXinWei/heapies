@@ -30,7 +30,7 @@ function Wink(){
     )
 }
 
-function App(){
+function Helloconnected(){
     return(
         <div>
             <HelloName />

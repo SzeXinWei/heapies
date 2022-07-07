@@ -1,7 +1,7 @@
 import React from 'react'
 import './Helloconnected.css'
-import wink from './images/wink.png'
-import logo from './images/spotifylogo.png'
+import wink from '../public/images/wink.png'
+import logo from '../public/images/spotifylogo.png'
 
 function HelloName(){
     return (

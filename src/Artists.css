@@ -1,0 +1,151 @@
+body {
+    background-color: #2C2828;
+    display: flex;
+    align-items: center;
+}
+.who {
+    position: absolute;
+    width: 1011px;
+    height: 130px;
+    left: 81px;
+    top: 70px;
+    
+    font-family: 'xpaider pixel explosion 02';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 52px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2em;
+    
+    color: #F20FC6;
+    
+}    
+.selectdesc{
+
+    position: absolute;
+    width: 221px;
+    height: 21px;
+    left: 645px;
+    top: 671px;
+    
+    font-family: 'xpaider pixel explosion 02';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 21px;
+    white-space: nowrap;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2em;
+    
+    color: #C646E6;
+    
+}    
+
+.nothere{
+    position: absolute;
+    width: 326px;
+    height: 21px;
+    left: 593px;
+    top: 728px;
+
+    font-family: 'xpaider pixel explosion 02';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 21px;
+    white-space: nowrap;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2em;
+
+    color: #C646E6;
+}
+
+.searchartist{
+    position: absolute;
+    width: 698px;
+    height: 59px;
+    left: 407px;
+    top: 785px;
+
+    padding: 20px;
+    background-color: #F20FC6;
+    border-radius: 95px;
+    font-weight: 800;
+    font-family: "xpaider pixel explosion 02";
+    text-decoration: none;
+    align-items: center;
+
+}
+
+.next{
+    position: absolute;
+    width: 214px;
+    height: 57px;
+    left: 645px;
+    top: 882px;
+
+    padding: 20px;
+    background-color: #F20FC6;
+    border-radius: 95px;
+    font-weight: 800;
+    font-family: "xpaider pixel explosion 02";
+    text-decoration: none;
+    align-items: center;
+}
+
+.artist1{
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    left: 162px;
+    top: 226px;
+}
+
+.artist2{
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    left: 282px;
+    top: 491px;
+
+}
+
+.artist3{
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    left: 546px;
+    top: 311px;
+}
+
+.artist4{
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    left: 840px;
+    top: 193px;
+}
+
+.artist5{
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    left: 930px;
+    top: 489px;
+}
+
+.artist6{
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    left: 1178px;
+    top: 316px;
+}

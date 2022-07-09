@@ -26,12 +26,21 @@ function SongsSelected(){
     )
 }
 
+export function Next(){
+    return(
+        <div className='next'>
+            NEXT
+        </div>
+    )
+}
+
 function Songsselected(){
     return(
         <div>
             <TellMe />
             <SongsSelected />
             <SearchList />
+            <Next />
             <DescSkip />
         </div>
     )

@@ -110,9 +110,11 @@ body {
 
 .select{
     position: absolute;
+    width: 221px;
     height: 21px;
     left: 645px;
-    top: 683px;
+    top: 550px;
+    white-space: nowrap;
 
     font-family: 'xpaider pixel explosion 02';
     font-style: normal;
@@ -126,6 +128,29 @@ body {
     letter-spacing: 0.2em;
 
     color: #C646E6;
+}
+
+.next{
+    position: absolute;
+    width: 214px;
+    height: 57px;
+    left: 649px;
+    top: 704px;
+
+    background: #F20FC6;
+    border-radius: 95px;
+
+
+    font-family: 'xpaider pixel explosion 02';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2em;
+
+    color: #2C2828;
 }
 
 .skip{
@@ -149,4 +174,3 @@ body {
     
     color: #C646E6;
 }
-

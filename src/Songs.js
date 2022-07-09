@@ -15,7 +15,7 @@ function SearchList(){
     )
 }
 
-function DescSKip(){
+function DescSkip(){
     return(
         <div>
             <p className='select'>SELECT UP TO 3</p>
@@ -29,7 +29,7 @@ function Songs(){
         <div>
             <TellMe />
             <SearchList />
-            <DescSKip />
+            <DescSkip />
         </div>
     )
 }

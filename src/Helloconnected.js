@@ -2,6 +2,8 @@ import React from 'react'
 import './Helloconnected.css'
 import wink from './images/wink.png'
 import logo from './images/spotifylogo.png'
+import {useNavigate} from "react-router-dom"
+
 
 function HelloName(){
     return (
@@ -30,13 +32,16 @@ function Wink(){
     )
 }
 
-function Helloconnected(){
+function Helloconnected({username}){
+    let navigate = useNavigate();
     return(
         <div>
-            <HelloName />
+
+            <h1 className='name'>Hello {username}</h1>
             <Greeting />
             <Wink />
             <SpotifyConnected />
+            <button onClick={() => {navigate("/Feelings")}}>Go To Feelings</button>
         </div>
     )
 

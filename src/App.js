@@ -5,6 +5,9 @@ import Helloconnected from './Helloconnected';
 import SpotifyWebApi from 'spotify-web-api-js';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import Feelings from './Feelings';
+import Final_Artists from './Artists';
+import Artistsconfirmed from './Artistsconfirmed';
+import Playlistplay from './Playlistplay';
 
 const spotify = new SpotifyWebApi();
 
@@ -22,7 +25,6 @@ function App() {
       spotify.setAccessToken(_token);
 
       spotify.getMe().then(user => {
-        let values = Object.values(user);
         setUsername(user?.display_name);
         console.log(user?.display_name);
         console.log(user);
@@ -40,6 +42,11 @@ function App() {
           <Routes>
             <Route path="/" element = {<Helloconnected username={username}/>} />
             <Route path="/feelings" element = {<Feelings/>}/>
+            <Route path="/Artists" element = {<Final_Artists/>}/>
+            <Route path="/Artistsconfirmed" element = {<Artistsconfirmed/>}/>
+            <Route path="/Playlistplay" element = {<Playlistplay/>}/>
+
+
           </Routes>
         </Router>
         

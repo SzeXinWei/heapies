@@ -9,9 +9,9 @@ import {useNavigate} from "react-router-dom"
 
 function Greeting(){
     return (
-        <div className='greeting'>
-            <h1>HEY, CUTIE.</h1>
-            <h1>HOW ARE WE FEELING TODAY?</h1>
+        <div>
+            <h1 className='hey'>HEY, CUTIE.</h1>
+            <h1 className='how'>HOW ARE WE FEELING TODAY?</h1>
         </div>
 
     )

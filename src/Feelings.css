@@ -2,27 +2,27 @@ body {
     background-color: #2C2828 ;
   }
 /* TESTING */
-.greeting {
-    /* position: absolute;
-    width: 435px;
-    height: 53px;
-    left: 67px;
-    top: 62px; */
+.hey {
   
+    display: block;
     font-family: 'xpaider pixel explosion 02';
     font-style: normal;
     font-weight: 400;
-    font-size: 50px;
-    line-height: 52px;
-    /* identical to box height */
-  
-    /* display: flex;
-    align-items: center;
-    letter-spacing: 0.2em; */
+    font-size: 70px;
   
     color: #F20FC6;
   
   }
+
+.how{
+  display: block;
+  font-family: 'xpaider pixel explosion 02';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 70px;
+
+  color: #F20FC6;
+}
 
 .sad{
     position: absolute;

@@ -5,6 +5,7 @@ import angry from './images/angry.png'
 import sad from './images/sad.png'
 import party from './images/party.png'
 import relaxed from './images/relaxed.png'
+import {useNavigate} from "react-router-dom"
 
 function Greeting(){
     return (
@@ -29,10 +30,12 @@ function Emotions(){
 }
 
 function Feelings(){
+    let navigate = useNavigate();
     return(
         <div>
             <Greeting />
             <Emotions />
+            <button onClick={() => {navigate("/Artists")}}>Go To Artists</button>
         </div>
     )
 

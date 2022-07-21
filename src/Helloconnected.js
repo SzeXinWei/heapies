@@ -21,7 +21,6 @@ function SpotifyConnected(){
     return(
         <div>
             <h4 className='sc'>SPOTIFY CONNECTED</h4>
-            <img className='spotifylogo' src={logo} width = '40px'/>
         </div>
     )
 }
@@ -35,14 +34,24 @@ function Wink(){
 function Helloconnected({username}){
     let navigate = useNavigate();
     return(
-        <div>
+        <nav>
+            <div className="text">
+                <h1 className='name'>Hello {username}</h1>
+                <Greeting />
+            </div>
 
-            <h1 className='name'>Hello {username}</h1>
-            <Greeting />
-            <Wink />
-            <SpotifyConnected />
-            <button onClick={() => {navigate("/Feelings")}}>Go To Feelings</button>
-        </div>
+            <div className="wink">
+                <Wink />
+            </div>
+
+            <div className="sc">
+                <img className='spotifylogo' src={logo} width = '40px'/>
+                <div className="padding"></div>
+                <SpotifyConnected />
+            </div>
+
+            <button className="Feelings" onClick={() => {navigate("/Feelings")}}>Next</button>
+        </nav>   
     )
 
 }

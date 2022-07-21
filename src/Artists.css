@@ -8,7 +8,7 @@ body {
 .who {
     position: absolute;
     width: 1011px;
-    height: 130px;
+    /* height: 130px; */
     left: 81px;
     top: 70px;
     
@@ -16,7 +16,6 @@ body {
     font-style: normal;
     font-weight: 400;
     font-size: 30px;
-    line-height: 52px;
     display: flex;
     align-items: center;
     letter-spacing: 0.2em;
@@ -24,6 +23,11 @@ body {
     color: #F20FC6;
     
 }    
+
+.padding {
+    margin-bottom: 50px;
+}
+
 .selectdesc{
 
     position: absolute;
@@ -103,7 +107,7 @@ body {
     align-items: center;
 }
 
-.artist1{
+#artist1 {
     position: absolute;
     width: 180px;
     height: 180px;
@@ -111,7 +115,7 @@ body {
     top: 226px;
 }
 
-.artist2{
+#artist2 {
     position: absolute;
     width: 180px;
     height: 180px;
@@ -120,7 +124,7 @@ body {
 
 }
 
-.artist3{
+#artist3 {
     position: absolute;
     width: 180px;
     height: 180px;
@@ -128,7 +132,7 @@ body {
     top: 311px;
 }
 
-.artist4{
+#artist4{
     position: absolute;
     width: 180px;
     height: 180px;
@@ -136,7 +140,7 @@ body {
     top: 193px;
 }
 
-.artist5{
+#artist5 {
     position: absolute;
     width: 180px;
     height: 180px;
@@ -144,7 +148,7 @@ body {
     top: 489px;
 }
 
-.artist6{
+#artist6 {
     position: absolute;
     width: 180px;
     height: 180px;

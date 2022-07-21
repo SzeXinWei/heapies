@@ -5,7 +5,7 @@ import {useNavigate} from "react-router-dom"
 
 function Who(){
     return (
-        <h1 className='who'>SO... WHO DO YOU LISTEN TO?</h1>
+        <h1 className='who'>SO... WHICH OF THESE ARTISTS BEST SUIT YOU?</h1>
 
     )
 }
@@ -13,12 +13,12 @@ function Who(){
 function Artists(){
     return(
         <div>
-            <img className='artist1' src={circle} />
-            <img className='artist2' src={circle} />
-            <img className='artist3' src={circle} />
-            <img className='artist4' src={circle} />
-            <img className='artist5' src={circle} />
-            <img className='artist6' src={circle} />
+            <img id='artist1' src={circle} />
+            <img id='artist2' src={circle} />
+            <img id='artist3' src={circle} />
+            <img id='artist4' src={circle} />
+            <img id='artist5' src={circle} />
+            <img id='artist6' src={circle} />
         </div>
     )
 }
@@ -26,8 +26,8 @@ function Artists(){
 function SelectDesc(){
     return(
         <div className='selectdesc'>
-        SELECT UP TO 3
-    </div>
+            SELECT UP TO 3
+        </div>
     )
 
 }

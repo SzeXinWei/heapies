@@ -13,6 +13,66 @@ body {
   
   }
 
+#angry {
+  background-color: #2C2828;
+  border: none;
+
+  position: absolute;
+  height: 150px;
+  width: 180px;
+  height: 180px;
+  left: 823.11px;
+  top: 620px;
+}
+
+#happy {
+  background-color: #2C2828;
+  border: none;
+
+  position: absolute;
+  height: 150px;
+  width: 180px;
+  height: 180px;
+  left: 908.39px;
+  top: 407.47px;
+}
+
+#sad {
+  background-color: #2C2828;
+  border: none;
+
+  position: absolute;
+  height: 150px;
+  width: 180px;
+  height: 180px;
+  left: 700.21px;
+  top: 273px;
+}
+
+#party {
+  background-color: #2C2828;
+  border: none;
+
+  position: absolute;
+  height: 150px;
+  width: 180px;
+  height: 180px;
+  left: 572.43px;
+  top: 616.39px;
+}
+
+#relaxed {
+  background-color: #2C2828;
+  border: none;
+
+  position: absolute;
+  height: 150px;
+  width: 180px;
+  height: 180px;
+  left: 503.03px;
+  top: 394.59px;
+}
+
 #greeting1 {
   display: block;
 }
@@ -20,6 +80,7 @@ body {
 #greeting2 {
   padding-top: 20px;
   display: block;
+  padding-bottom: 80px;
 }
 
 .how{
@@ -30,50 +91,4 @@ body {
   font-size: 70px;
 
   color: #F20FC6;
-}
-
-.sad{
-    position: absolute;
-    width: 180px;
-    height: 180px;
-    left: 710.21px;
-    top: 273px;
-
-  }
-
-.happy{
-    position: absolute;
-    width: 180px;
-    height: 180px;
-    left: 908.39px;
-    top: 407.47px;
-
-}
-
-.angry{
-    position: absolute;
-    width: 180px;
-    height: 180px;
-    left: 823.11px;
-    top: 620px;
-    
-}
-
-.party{
-    position: absolute;
-    width: 180px;
-    height: 180px;
-    left: 572.43px;
-    top: 616.39px;
-
-}
-
-.relaxed{
-    position: absolute;
-    width: 180px;
-    height: 180px;
-    left: 503.03px;
-    top: 394.59px;
-
-
 }

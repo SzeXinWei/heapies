@@ -20,11 +20,11 @@ function Greeting(){
 function Emotions(){
     return(
         <div>
-            <img className='happy' src={happy} />
+            {/* <img className='happy' src={happy} />
             <img className='angry' src={angry} />
             <img className='sad' src={sad} />
             <img className='party' src={party} />
-            <img className='relaxed' src={relaxed} />
+            <img className='relaxed' src={relaxed} /> */}
         </div>
         )
 }
@@ -44,12 +44,11 @@ function Feelings(){
         <div>
             <Greeting />
             <Emotions />
-            <button onClick ={() => {navigate("/Artists" , {state: {emotions: "angry"}})}}>Angry</button>
-            <button onClick ={() => {navigate("/Artists" , {state: {emotions: "Happy"}})}}>Happy</button>
-            <button onClick ={() => {navigate("/Artists" , {state: {emotions: "sad"}})}}>sad</button>
-            <button onClick ={() => {navigate("/Artists" , {state: {emotions: "party"}})}}>party</button>
-            <button onClick ={() => {navigate("/Artists" , {state: {emotions: "relaxed"}})}}>relaxed</button>
-           
+            <button id="angry" onClick ={() => {navigate("/Artists" , {state: {emotions: "angry"}})}}><img src={angry} width="150px" height= "150px"/></button>
+            <button id="happy" onClick ={() => {navigate("/Artists" , {state: {emotions: "Happy"}})}}><img src={happy} width="150px" height= "150px"/></button>
+            <button id="sad" onClick ={() => {navigate("/Artists" , {state: {emotions: "sad"}})}}><img src={sad} width="150px" height= "150px"/></button>
+            <button id="party" onClick ={() => {navigate("/Artists" , {state: {emotions: "party"}})}}><img src={party} width="150px" height= "150px"/></button>
+            <button id="relaxed" onClick ={() => {navigate("/Artists" , {state: {emotions: "relaxed"}})}}><img src={relaxed} width="150px" height= "150px"/></button>
         </div>
     )
 

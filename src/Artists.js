@@ -12,18 +12,10 @@ function Who(){
     )
 }
 
-function Border() {
-    return (
-        <div>
-            
-        </div>
-    )
-}
-
 function Artists(){
     return(
         <div>
-            <img id='artist1' onclick="Border()" src={circle} />
+            <img id='artist1' src={circle} />
             <img id='artist2' src={circle} />
             <img id='artist3' src={circle} />
             <img id='artist4' src={circle} />

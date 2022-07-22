@@ -1,0 +1,129 @@
+body {
+    background-color: #2C2828;
+    display: flex;
+    align-items: center;
+}
+
+.namesplaylist {
+    position: absolute;
+    height: 53px;
+    left: 81px;
+    top: 62px;
+
+    font-family: 'xpaider pixel explosion 02';
+    font-style: normal;
+    font-size: 30px;
+    line-height: 52px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2em;
+
+    color: #F20FC6;
+}
+
+.pause{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+
+    font-family: 'xpaider pixel explosion 02';
+    font-style: normal;
+    font-size: 26px;
+
+    letter-spacing: 0.2em;
+
+    color: #2C2828;
+
+    position: absolute;
+    width: 240px;
+    height: 87px;
+    left: 636px;
+    top: 772px;
+    
+    background: #F20FC6;
+    border-radius: 95px;
+}
+
+.save{
+    position: absolute;
+    height: 21px;
+    left: 642px;
+    top: 887px;
+
+    font-family: 'xpaider pixel explosion 02';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 21px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2em;
+
+    color: #C646E6;
+}
+
+.s{
+    position: absolute;
+    height: 23px;
+    left: 283px;
+    top: 197px;
+    
+    font-family: 'xpaider pixel explosion 02';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 23px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2em;
+    
+    color: #C646E6;
+    
+}
+
+.a{
+    position: absolute;
+    height: 23px;
+    left: 283px;
+    top: 222px;
+    
+    font-family: 'xpaider pixel explosion 02';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 23px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2em;
+    
+    color: #C646E6;
+}
+
+.num{
+    position: absolute;
+    width: 10px;
+    height: 29px;
+    left: 95px;
+    top: 207px;
+    
+    font-family: 'xpaider pixel explosion 02';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2em;
+    
+    color: #C646E6;
+    
+}

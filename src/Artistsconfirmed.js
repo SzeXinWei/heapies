@@ -1,7 +1,7 @@
 import React from 'react'
 import './Artistsconfirmed.css'
 import circle from './images/circle.png'
-import {useNavigate} from "react-router-dom"
+import {useNavigate , useLocation} from "react-router-dom"
 
 function Comment(){
     return (
@@ -24,12 +24,14 @@ function Artists(){
 }
 
 function Confirm(){
+    const { state } = useLocation();
+    const { emotions } = state;
     let navigate = useNavigate();
     return(
         <div>
             {/* <p className='confirm'>CONFIRM</p>
             <p className='reselect'>I want to reselect.</p> */}
-            <button onClick={() => {navigate("/Artists")}}>I want to reselect</button>
+            <button onClick={() => {navigate("/Artists" , { state: {emotions} })}}>I want to reselect</button>
             <button onClick={() => {navigate("/Playlistplay")}}>GENERATE</button>
 
         </div>
@@ -37,6 +39,8 @@ function Confirm(){
 }
 
 function Artistsconfirmed(){
+    
+    
     return(
         <div>
             <Comment />

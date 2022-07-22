@@ -1,15 +1,18 @@
 .login {
     /* place-items: center; */
-    /* Display: block; */
+    Display: block;
 	Margin-left: auto;
 	Margin-right: auto;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center;
+    align-items: center; */
 
 }
 
 body {
     background-color: #2c2828;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -18,8 +21,6 @@ body {
     color: #F20FC6;
     padding-bottom: 60px;
     font-size: 80px;
-
-    
 }
 
 .login > a{

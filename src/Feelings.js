@@ -11,10 +11,9 @@ import React, { useEffect, useState } from "react";
 function Greeting(){
     return (
         <div className='greeting'>
-            <h1>HEY, CUTIE.</h1>
-            <h1>HOW ARE WE FEELING TODAY?</h1>
+            <h1 id="greeting1">HEY, CUTIE.</h1>
+            <h1 id="greeting2">HOW ARE WE FEELING TODAY?</h1>
         </div>
-
     )
 }
 

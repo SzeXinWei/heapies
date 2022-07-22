@@ -2,17 +2,25 @@ body {
     background-color: #2C2828 ;
   }
 /* TESTING */
-.hey {
-  
+.greeting {
     display: block;
     font-family: 'xpaider pixel explosion 02';
     font-style: normal;
     font-weight: 400;
-    font-size: 70px;
+    font-size: 30px;
   
     color: #F20FC6;
   
   }
+
+#greeting1 {
+  display: block;
+}
+
+#greeting2 {
+  padding-top: 20px;
+  display: block;
+}
 
 .how{
   display: block;

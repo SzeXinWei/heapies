@@ -15,10 +15,11 @@ body {
     font-family: 'xpaider pixel explosion 02';
     font-style: normal;
     font-weight: 400;
-    font-size: 30px;
+    font-size: 50px;
     display: flex;
     align-items: center;
     letter-spacing: 0.2em;
+    white-space: nowrap;
     
     color: #F20FC6;
     
@@ -77,11 +78,11 @@ body {
 .searchartist{
     position: absolute;
     width: 698px;
-    height: 59px;
+    height: 24px;
     left: 407px;
     top: 785px;
 
-    padding: 20px;
+    padding: 10px 30px;
     background-color: #F20FC6;
     border-radius: 95px;
     font-weight: 800;
@@ -89,6 +90,11 @@ body {
     text-decoration: none;
     align-items: center;
 
+}
+
+.searchartist:hover {
+    background-color: violet;
+    color: black;
 }
 
 .next{

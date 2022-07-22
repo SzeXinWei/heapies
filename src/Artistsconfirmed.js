@@ -16,9 +16,9 @@ function Artists(){
             <img className='c1' src={circle} />
             <p className='artist1'>Artist 1</p>
             <img className='c2' src={circle} />
-            <p className='artist2'>Artist 1</p>
+            <p className='artist2'>Artist 2</p>
             <img className='c3' src={circle} />
-            <p className='artist3'>Artist 1</p>
+            <p className='artist3'>Artist 3</p>
         </div>
     )
 }

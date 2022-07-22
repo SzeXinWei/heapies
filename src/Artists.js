@@ -1,11 +1,13 @@
 import React from 'react'
 import './Artists.css'
 import circle from './images/circle.png'
-import {useNavigate} from "react-router-dom"
+import {useNavigate , useLocation} from "react-router-dom"
+import SpotifyWebApi from 'spotify-web-api-js';
 
+const spotifyApi = new SpotifyWebApi();
 function Who(){
     return (
-        <h1 className='who'>SO... WHICH OF THESE ARTISTS BEST SUIT YOU?</h1>
+        <h1 className='who'>SO... WHO DO YOU LISTEN TO?</h1>
 
     )
 }
@@ -13,12 +15,12 @@ function Who(){
 function Artists(){
     return(
         <div>
-            <img id='artist1' src={circle} />
-            <img id='artist2' src={circle} />
-            <img id='artist3' src={circle} />
-            <img id='artist4' src={circle} />
-            <img id='artist5' src={circle} />
-            <img id='artist6' src={circle} />
+            <img className='artist1' src={circle} />
+            <img className='artist2' src={circle} />
+            <img className='artist3' src={circle} />
+            <img className='artist4' src={circle} />
+            <img className='artist5' src={circle} />
+            <img className='artist6' src={circle} />
         </div>
     )
 }
@@ -26,35 +28,61 @@ function Artists(){
 function SelectDesc(){
     return(
         <div className='selectdesc'>
-            SELECT UP TO 3
-        </div>
+        SELECT UP TO 3
+    </div>
     )
 
 }
 
 
 function Search(){
-    let navigate = useNavigate();
+    // let navigate = useNavigate();
+    // const { state } = useLocation();
+    // const { emotions } = state;
+    // console.log(emotions);
     return(
     <div>
         <h2 className='nothere'>Not here? No worries.</h2>
         <h2 className='searchartist'>Search for your favourite ARTISTS here.</h2>
-        <button onClick={() => {navigate("/Artistsconfirmed")}}>Next</button>
-        {/* <h2 className='next'>NEXT</h2> */}
+        {/* <button onClick={() => {navigate("/Artistsconfirmed" , { state: {emotions} })}}>Next</button>
+        <h2 className='next'>NEXT</h2> */}
         
     </div>
     )
 
 }
 
+// Api call for searching for artist 
+// Need to create a function to call the api so that the search artist variable is not hardcoded
+// console log helps to check and if yall need the image to display just call it out from the object
+spotifyApi.searchArtists('Justin Bieber').then(
+    function (data) {
+      console.log('Search artists by "Love"', data);
+      console.log(data.artists.href)
+      for (let i = 0; i < data.artists.items.length; i++) {
+        console.log(data.artists.items[i])
+      }
+      
+      
+    },
+    function (err) {
+      console.error(err);
+    }
+  );
+
+
 function Final_Artists(){
-    
+    let navigate = useNavigate();
+    const { state } = useLocation();
+    const { emotions } = state;
     return(
         <div>
             <Who />
             <Artists />
             <SelectDesc />
             <Search />
+            <button onClick={() => {navigate("/Artistsconfirmed" , { state: {emotions} })}}>Next</button>
+            
             
         </div>
     )

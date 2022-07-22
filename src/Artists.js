@@ -15,12 +15,12 @@ function Who(){
 function Artists(){
     return(
         <div>
-            <img className='artist1' src={circle} />
-            <img className='artist2' src={circle} />
-            <img className='artist3' src={circle} />
-            <img className='artist4' src={circle} />
-            <img className='artist5' src={circle} />
-            <img className='artist6' src={circle} />
+            <img id='artist1' src={circle} />
+            <img id='artist2' src={circle} />
+            <img id='artist3' src={circle} />
+            <img id='artist4' src={circle} />
+            <img id='artist5' src={circle} />
+            <img id='artist6' src={circle} />
         </div>
     )
 }

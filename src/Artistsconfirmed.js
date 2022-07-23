@@ -32,7 +32,7 @@ function Confirm(){
             {/* <p className='confirm'>CONFIRM</p>
             <p className='reselect'>I want to reselect.</p> */}
             <button onClick={() => {navigate("/Artists" , { state: {emotions} })}}>I want to reselect</button>
-            <button onClick={() => {navigate("/Playlistplay")}}>GENERATE</button>
+            <button onClick={() => {navigate("/Playlistplay")}}>Generate</button>
 
         </div>
     )

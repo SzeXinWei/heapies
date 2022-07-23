@@ -1,4 +1,5 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom'
 import './Songs.css'
 
 export function TellMe(){
@@ -25,11 +26,13 @@ export function DescSkip(){
 }
 
 function Songs(){
+    let navigate = useNavigate();
     return(
         <div>
             <TellMe />
             <SearchList />
             <DescSkip />
+            <button onClick={() => {navigate("/Songsselected")}}>Next</button>
         </div>
     )
 }

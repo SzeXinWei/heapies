@@ -12,6 +12,8 @@ function Who(){
     )
 }
 
+
+
 function Artists(){
     return(
         <div>
@@ -69,6 +71,8 @@ spotifyApi.searchArtists('Justin Bieber').then(
       console.error(err);
     }
   );
+
+
 
 
 function Final_Artists(){

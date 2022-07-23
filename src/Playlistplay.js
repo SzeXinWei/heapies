@@ -8,18 +8,225 @@ export function NamesPlaylist(){
     )
 }
 
-export function Song(){
+export function Song1(){
     return(
-        <div className='song'>
-            <img className='c' src={circle} />
-            <p className='s'>SONG</p>
-            <p className='a'>ARTIST</p>
-            <p className='num'>1</p>
+        <div id='song1'>
+            <img className='c1' src={circle} />
+            <p className='s1'>SONG</p>
+            <p className='a1'>ARTIST</p>
+            <p className='num1'>1</p>
         </div>
     )
 }
 
-// based on how many songs are generated (test)
+export function Song2(){
+    return(
+        <div id='song2'>
+            <img className='c2' src={circle} />
+            <p className='s2'>SONG</p>
+            <p className='a2'>ARTIST</p>
+            <p className='num2'>2</p>
+        </div>
+    )
+}
+
+export function Song3(){
+    return(
+        <div id='song3'>
+            <img className='c3' src={circle} />
+            <p className='s3'>SONG</p>
+            <p className='a3'>ARTIST</p>
+            <p className='num3'>3</p>
+        </div>
+    )
+}
+
+export function Song4(){
+    return(
+        <div id='song4'>
+            <img className='c4' src={circle} />
+            <p className='s4'>SONG</p>
+            <p className='a4'>ARTIST</p>
+            <p className='num4'>4</p>
+        </div>
+    )
+}
+
+export function Song5(){
+    return(
+        <div id='song5'>
+            <img className='c5' src={circle} />
+            <p className='s5'>SONG</p>
+            <p className='a5'>ARTIST</p>
+            <p className='num5'>5</p>
+        </div>
+    )
+}
+
+export function Song6(){
+    return(
+        <div id='song6'>
+            <img className='c6' src={circle} />
+            <p className='s6'>SONG</p>
+            <p className='a6'>ARTIST</p>
+            <p className='num6'>6</p>
+        </div>
+    )
+}
+
+export function Song7(){
+    return(
+        <div id='song7'>
+            <img className='c7' src={circle} />
+            <p className='s7'>SONG</p>
+            <p className='a7'>ARTIST</p>
+            <p className='num7'>7</p>
+        </div>
+    )
+}
+
+export function Song8(){
+    return(
+        <div id='song8'>
+            <img className='c8' src={circle} />
+            <p className='s8'>SONG</p>
+            <p className='a8'>ARTIST</p>
+            <p className='num8'>8</p>
+        </div>
+    )
+}
+
+export function Song9(){
+    return(
+        <div id='song9'>
+            <img className='c9' src={circle} />
+            <p className='s9'>SONG</p>
+            <p className='a9'>ARTIST</p>
+            <p className='num9'>9</p>
+        </div>
+    )
+}
+
+export function Song10(){
+    return(
+        <div id='song10'>
+            <img className='c10' src={circle} />
+            <p className='s10'>SONG</p>
+            <p className='a10'>ARTIST</p>
+            <p className='num10'>10</p>
+        </div>
+    )
+}
+
+export function Song11(){
+    return(
+        <div id='song11'>
+            <img className='c11' src={circle} />
+            <p className='s11'>SONG</p>
+            <p className='a11'>ARTIST</p>
+            <p className='num11'>11</p>
+        </div>
+    )
+}
+
+export function Song12(){
+    return(
+        <div id='song12'>
+            <img className='c12' src={circle} />
+            <p className='s12'>SONG</p>
+            <p className='a12'>ARTIST</p>
+            <p className='num12'>12</p>
+        </div>
+    )
+}
+
+export function Song13(){
+    return(
+        <div id='song13'>
+            <img className='c13' src={circle} />
+            <p className='s13'>SONG</p>
+            <p className='a13'>ARTIST</p>
+            <p className='num13'>13</p>
+        </div>
+    )
+}
+
+export function Song14(){
+    return(
+        <div id='song14'>
+            <img className='c14' src={circle} />
+            <p className='s14'>SONG</p>
+            <p className='a14'>ARTIST</p>
+            <p className='num14'>14</p>
+        </div>
+    )
+}
+
+export function Song15(){
+    return(
+        <div id='song15'>
+            <img className='c15' src={circle} />
+            <p className='s15'>SONG</p>
+            <p className='a15'>ARTIST</p>
+            <p className='num15'>15</p>
+        </div>
+    )
+}
+
+export function Song16(){
+    return(
+        <div id='song16'>
+            <img className='c16' src={circle} />
+            <p className='s16'>SONG</p>
+            <p className='a16'>ARTIST</p>
+            <p className='num16'>16</p>
+        </div>
+    )
+}
+
+export function Song17(){
+    return(
+        <div id='song17'>
+            <img className='c17' src={circle} />
+            <p className='s17'>SONG</p>
+            <p className='a17'>ARTIST</p>
+            <p className='num17'>17</p>
+        </div>
+    )
+}
+
+export function Song18(){
+    return(
+        <div id='song18'>
+            <img className='c18' src={circle} />
+            <p className='s18'>SONG</p>
+            <p className='a18'>ARTIST</p>
+            <p className='num18'>18</p>
+        </div>
+    )
+}
+
+export function Song19(){
+    return(
+        <div id='song19'>
+            <img className='c19' src={circle} />
+            <p className='s19'>SONG</p>
+            <p className='a19'>ARTIST</p>
+            <p className='num19'>19</p>
+        </div>
+    )
+}
+
+export function Song20(){
+    return(
+        <div id='song20'>
+            <img className='c20' src={circle} />
+            <p className='s20'>SONG</p>
+            <p className='a20'>ARTIST</p>
+            <p className='num20'>20</p>
+        </div>
+    )
+}
 
 function Play(){
     return(
@@ -37,7 +244,26 @@ function Playlistplay(){
     return(
         <div>
             <NamesPlaylist />
-            <Song />
+            <Song1 />
+            <Song2 />
+            <Song3 />
+            <Song4 />
+            <Song5 />
+            <Song6 />
+            <Song7 />
+            <Song8 />
+            <Song9 />
+            <Song10 />
+            <Song11 />
+            <Song12 />
+            <Song13 />
+            <Song14 />
+            <Song15 />
+            <Song16 />
+            <Song17 />
+            <Song18 />
+            <Song19 />
+            <Song20 />
             <Play />
             <Save />
         </div>

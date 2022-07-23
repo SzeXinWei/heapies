@@ -69,7 +69,9 @@ body {
     color: #C646E6;
 }
 
-.s{
+/* song 1 */
+
+.s1{
     position: absolute;
     height: 23px;
     left: 283px;
@@ -90,7 +92,7 @@ body {
     
 }
 
-.a{
+.a1{
     position: absolute;
     height: 23px;
     left: 283px;
@@ -110,7 +112,7 @@ body {
     color: #C646E6;
 }
 
-.num{
+.num1{
     position: absolute;
     width: 10px;
     height: 29px;
@@ -130,87 +132,173 @@ body {
     
 }
 
-/* #no2{
-    position: absolute;
-    width: 19px;
-    height: 29px;
-    left: 95px;
-    top: 362px;
-    
-    font-family: 'xpaider pixel explosion 02';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 28px;
-    line-height: 29px;
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.2em;
-    
-    color: #C646E6;
-}
-#no3{
-    position: absolute;
-    width: 19px;
-    height: 29px;
-    left: 95px;
-    top: 517px;
-    
-    font-family: 'xpaider pixel explosion 02';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 28px;
-    line-height: 29px;
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.2em;
-    
-    color: #C646E6;
-    
-}
-#no4{
-    position: absolute;
-    width: 22px;
-    height: 29px;
-    left: 95px;
-    top: 672px;
-    
-    font-family: 'xpaider pixel explosion 02';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 28px;
-    line-height: 29px;
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.2em;
-    
-    color: #C646E6;
-    
-}
-#no5{
-    position: absolute;
-    width: 19px;
-    height: 29px;
-    left: 95px;
-    top: 827px;
-    
-    font-family: 'xpaider pixel explosion 02';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 28px;
-    line-height: 29px;
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.2em;
-    
-    color: #C646E6;
-    
-} */
-
-.c{
+.c1{
     position: absolute;
     width: 100px;
     height: 100px;
     left: 144px;
     top: 171px;
+    
+}
+
+/* song 2 */
+
+.c2{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 144px;
+    top: 300px;
+    
+}
+
+.s2{
+    position: absolute;
+    height: 23px;
+    left: 283px;
+    top: 300px;
+    
+    font-family: 'xpaider pixel explosion 02';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 23px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2em;
+    
+    color: #C646E6;
+    
+}
+
+.a2{
+    position: absolute;
+    height: 23px;
+    left: 283px;
+    top: 325px;
+    
+    font-family: 'xpaider pixel explosion 02';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 23px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2em;
+    
+    color: #C646E6;
+}
+
+.num2{
+    position: absolute;
+    width: 10px;
+    height: 29px;
+    left: 95px;
+    top: 310px;
+    
+    font-family: 'xpaider pixel explosion 02';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2em;
+    
+    color: #C646E6;
+    
+}
+
+.c2{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 144px;
+    top: 300px;
+    
+}
+
+/* song 3 */
+
+.c3{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 144px;
+    top: 300px;
+    
+}
+
+.s3{
+    position: absolute;
+    height: 23px;
+    left: 283px;
+    top: 425px;
+    
+    font-family: 'xpaider pixel explosion 02';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 23px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2em;
+    
+    color: #C646E6;
+    
+}
+
+.a3{
+    position: absolute;
+    height: 23px;
+    left: 283px;
+    top: 450px;
+    
+    font-family: 'xpaider pixel explosion 02';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 23px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2em;
+    
+    color: #C646E6;
+}
+
+.num3{
+    position: absolute;
+    width: 10px;
+    height: 29px;
+    left: 95px;
+    top: 440px;
+    
+    font-family: 'xpaider pixel explosion 02';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2em;
+    
+    color: #C646E6;
+    
+}
+
+.c3{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 144px;
+    top: 430px;
     
 }

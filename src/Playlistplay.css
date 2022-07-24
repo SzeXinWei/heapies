@@ -1,4 +1,4 @@
-body {
+nbody {
     background-color: #2C2828;
     display: flex;
     align-items: center;
@@ -72,11 +72,12 @@ body {
 /* song 1 */
 
 .s1{
+   
     position: absolute;
     height: 23px;
-    left: 283px;
-    top: 197px;
-    
+    left: 353px;
+    top: 182px;
+
     font-family: 'xpaider pixel explosion 02';
     font-style: normal;
     font-weight: 400;
@@ -94,9 +95,9 @@ body {
 
 .a1{
     position: absolute;
-    height: 23px;
-    left: 283px;
-    top: 222px;
+    height: 33px;
+    left: 333px;
+    top: 182px;
     
     font-family: 'xpaider pixel explosion 02';
     font-style: normal;
@@ -115,9 +116,9 @@ body {
 .num1{
     position: absolute;
     width: 10px;
-    height: 29px;
-    left: 95px;
-    top: 207px;
+    height: 1px;
+    left: 295px;
+    top: 187px;
     
     font-family: 'xpaider pixel explosion 02';
     font-style: normal;
@@ -175,10 +176,11 @@ body {
 
 .a2{
     position: absolute;
+    width: 168px;
     height: 23px;
-    left: 283px;
-    top: 325px;
-    
+    left: 333px;
+    top: 407px;
+
     font-family: 'xpaider pixel explosion 02';
     font-style: normal;
     font-weight: 400;
@@ -197,8 +199,8 @@ body {
     position: absolute;
     width: 10px;
     height: 29px;
-    left: 95px;
-    top: 310px;
+    left: 296px;
+    top: 400px;
     
     font-family: 'xpaider pixel explosion 02';
     font-style: normal;
@@ -235,7 +237,7 @@ body {
 
 .s3{
     position: absolute;
-    height: 23px;
+    height: 33px;
     left: 283px;
     top: 425px;
     
@@ -257,8 +259,8 @@ body {
 .a3{
     position: absolute;
     height: 23px;
-    left: 283px;
-    top: 450px;
+    left: 330px;
+    top: 630px;
     
     font-family: 'xpaider pixel explosion 02';
     font-style: normal;
@@ -278,8 +280,8 @@ body {
     position: absolute;
     width: 10px;
     height: 29px;
-    left: 95px;
-    top: 440px;
+    left: 295px;
+    top: 620px;
     
     font-family: 'xpaider pixel explosion 02';
     font-style: normal;
@@ -294,11 +296,3 @@ body {
     
 }
 
-.c3{
-    position: absolute;
-    width: 100px;
-    height: 100px;
-    left: 144px;
-    top: 430px;
-    
-}

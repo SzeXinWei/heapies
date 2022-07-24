@@ -103,7 +103,7 @@ nbody {
     font-style: normal;
     font-weight: 400;
     font-size: 22px;
-    line-height: 23px;
+    line-height: 53px;
     /* identical to box height */
     
     display: flex;
@@ -295,4 +295,144 @@ nbody {
     color: #C646E6;
     
 }
+
+/* song 4 */
+
+.c4{
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    left: 83px;
+    top: 850px;
+    
+}
+.s4{
+    position: absolute;
+    height: 993px;
+    left: 333px;
+    top: 425px;
+    
+    font-family: 'xpaider pixel explosion 02';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 23px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2em;
+    
+    color: #C646E6;
+    
+}
+.num4{
+    position: absolute;
+    width: 10px;
+    height: 29px;
+    left: 295px;
+    top: 850px;
+    
+    font-family: 'xpaider pixel explosion 02';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2em;
+    
+    color: #C646E6;
+    
+}
+.a4{
+    position: absolute;
+    height: 23px;
+    left: 330px;
+    top: 860px;
+    
+    font-family: 'xpaider pixel explosion 02';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 23px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2em;
+    
+    color: #C646E6;
+}
+
+/* song 5 */
+
+.c5{
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    left: 83px;
+    top: 1100px;
+    
+}
+.s5{
+    position: absolute;
+    height: 993px;
+    left: 333px;
+    top: 685px;
+    
+    font-family: 'xpaider pixel explosion 02';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 23px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2em;
+    
+    color: #C646E6;
+    
+}
+.num5{
+    position: absolute;
+    width: 10px;
+    height: 29px;
+    left: 295px;
+    top: 1100px;
+    
+    font-family: 'xpaider pixel explosion 02';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2em;
+    
+    color: #C646E6;
+    
+}
+.a5{
+    position: absolute;
+    height: 23px;
+    left: 330px;
+    top: 1110px;
+    
+    font-family: 'xpaider pixel explosion 02';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 23px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2em;
+    
+    color: #C646E6;
+}
+
+/* song 6 */
 

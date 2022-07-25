@@ -11,6 +11,7 @@ import Playlistplay from './Playlistplay';
 import Songs from './Songs';
 import Songsselected from './Songsselected';
 import Songsconfirmation from './Songsconfirmation';
+import { isCompositeComponent } from 'react-dom/test-utils';
 
 const spotifyApi = new SpotifyWebApi();
 
@@ -26,7 +27,6 @@ function App() {
 
     if (_token){
       setToken(_token)
-
       spotifyApi.setAccessToken(_token);
 
       spotifyApi.getMe().then(user => {
@@ -56,6 +56,13 @@ function App() {
               }
         }
     )
+        //Api to get recommendations
+    spotifyApi.getRecommendations(
+      {seed_artists: "4NHQUGzhtTLFvgF5SZesLK",
+      seed_genres: "Happy",
+      seed_tracks: "0c6xIDDpzE81m2q797ordA"
+    } , (error , results) => console.log(results.tracks[1]) )
+    
       
     }
 

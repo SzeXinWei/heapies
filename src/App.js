@@ -8,9 +8,6 @@ import Feelings from './Feelings';
 import Final_Artists from './Artists';
 import Artistsconfirmed from './Artistsconfirmed';
 import Playlistplay from './Playlistplay';
-import Songs from './Songs';
-import Songsselected from './Songsselected';
-import Songsconfirmation from './Songsconfirmation';
 import { isCompositeComponent } from 'react-dom/test-utils';
 
 const spotifyApi = new SpotifyWebApi();
@@ -19,6 +16,7 @@ function App() {
   const [token, setToken] = useState(null);
   const [username, setUsername] = useState("");
   const [userID, setUserID] = useState("");
+  const [topArtist, setTopArtist] = useState(null);
 
   useEffect(() =>{
     const hash = getTokenFromUrl();
@@ -40,6 +38,7 @@ function App() {
       // Api to get their Top artist
       spotifyApi.getMyTopArtists(userID, {limit: 10}).then(
         function(data){
+          setTopArtist(data);
             console.log(data);
             for (let i = 0; i < 5; i++) {
                 console.log(data.items[i])
@@ -76,12 +75,10 @@ function App() {
           <Routes>
             <Route path="/" element = {<Helloconnected username={username}/>} />
             <Route path="/feelings" element = {<Feelings/>}/>
-            <Route path="/Artists" element = {<Final_Artists userID={userID}/>} />
+            <Route path="/Artists" element = {<Final_Artists topArtist = {topArtist}/>} />
             <Route path="/Artistsconfirmed" element = {<Artistsconfirmed/>}/>
             <Route path="/Playlistplay" element = {<Playlistplay/>}/>
-            <Route path="/Songs" element = {<Songs/>}/>
-            <Route path="/Songsselected" element = {<Songsselected/>}/>
-            <Route path="/Songsconfirmation" element = {<Songsconfirmation/>}/>
+           
 
 
           </Routes>

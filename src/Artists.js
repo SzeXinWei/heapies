@@ -4,6 +4,7 @@ import circle from './images/circle.png'
 import {useNavigate , useLocation} from "react-router-dom"
 import SpotifyWebApi from 'spotify-web-api-js';
 
+const test = [];
 const spotifyApi = new SpotifyWebApi();
 function Who(){
     return (
@@ -73,23 +74,38 @@ spotifyApi.searchArtists('Justin Bieber').then(
   );
 
 
+//   function getTopArtist({topArtist}){
+//     return(
+//         <div>
+//         <h1>{topArtist}</h1>
+//         TEST
+//         </div>
+//     )
+// }
 
 
-function Final_Artists(){
+
+
+function Final_Artists({topArtist}){
     let navigate = useNavigate();
     const { state } = useLocation();
     const { emotions } = state;
+    for (let i = 0; i < 6; i++) {
+        console.log({topArtist}.topArtist.items[i].images[0])
+      }
+
     return(
         <div>
             <Who />
             <Artists />
             <SelectDesc />
             <Search />
+            
             <button onClick={() => {navigate("/Artistsconfirmed" , { state: {emotions} })}}>Next</button>
             
             
         </div>
     )
-}
 
+    }
 export default Final_Artists

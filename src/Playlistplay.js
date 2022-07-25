@@ -173,60 +173,6 @@ export function Song15(){
     )
 }
 
-export function Song16(){
-    return(
-        <div id='song16'>
-            <img className='c16' src={circle} />
-            <p className='s16'>SONG</p>
-            <p className='a16'>ARTIST</p>
-            <p className='num16'>16</p>
-        </div>
-    )
-}
-
-export function Song17(){
-    return(
-        <div id='song17'>
-            <img className='c17' src={circle} />
-            <p className='s17'>SONG</p>
-            <p className='a17'>ARTIST</p>
-            <p className='num17'>17</p>
-        </div>
-    )
-}
-
-export function Song18(){
-    return(
-        <div id='song18'>
-            <img className='c18' src={circle} />
-            <p className='s18'>SONG</p>
-            <p className='a18'>ARTIST</p>
-            <p className='num18'>18</p>
-        </div>
-    )
-}
-
-export function Song19(){
-    return(
-        <div id='song19'>
-            <img className='c19' src={circle} />
-            <p className='s19'>SONG</p>
-            <p className='a19'>ARTIST</p>
-            <p className='num19'>19</p>
-        </div>
-    )
-}
-
-export function Song20(){
-    return(
-        <div id='song20'>
-            <img className='c20' src={circle} />
-            <p className='s20'>SONG</p>
-            <p className='a20'>ARTIST</p>
-            <p className='num20'>20</p>
-        </div>
-    )
-}
 
 function Play(){
     return(
@@ -259,11 +205,6 @@ function Playlistplay(){
             <Song13 />
             <Song14 />
             <Song15 />
-            <Song16 />
-            <Song17 />
-            <Song18 />
-            <Song19 />
-            <Song20 />
             <Play />
             <Save />
         </div>

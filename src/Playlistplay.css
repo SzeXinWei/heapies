@@ -52,7 +52,7 @@ nbody {
 .save{
     position: absolute;
     height: 21px;
-    left: 642px;
+    left: 612px;
     top: 887px;
 
     font-family: 'xpaider pixel explosion 02';
@@ -117,7 +117,7 @@ nbody {
     position: absolute;
     width: 10px;
     height: 1px;
-    left: 295px;
+    left: 55px;
     top: 187px;
     
     font-family: 'xpaider pixel explosion 02';
@@ -199,7 +199,7 @@ nbody {
     position: absolute;
     width: 10px;
     height: 29px;
-    left: 296px;
+    left: 55px;
     top: 400px;
     
     font-family: 'xpaider pixel explosion 02';
@@ -212,15 +212,6 @@ nbody {
     letter-spacing: 0.2em;
     
     color: #C646E6;
-    
-}
-
-.c2{
-    position: absolute;
-    width: 100px;
-    height: 100px;
-    left: 144px;
-    top: 300px;
     
 }
 
@@ -280,7 +271,7 @@ nbody {
     position: absolute;
     width: 10px;
     height: 29px;
-    left: 295px;
+    left: 55px;
     top: 620px;
     
     font-family: 'xpaider pixel explosion 02';
@@ -330,7 +321,7 @@ nbody {
     position: absolute;
     width: 10px;
     height: 29px;
-    left: 295px;
+    left: 55px;
     top: 850px;
     
     font-family: 'xpaider pixel explosion 02';
@@ -399,7 +390,7 @@ nbody {
     position: absolute;
     width: 10px;
     height: 29px;
-    left: 295px;
+    left: 55px;
     top: 1100px;
     
     font-family: 'xpaider pixel explosion 02';
@@ -436,3 +427,681 @@ nbody {
 
 /* song 6 */
 
+.c6{
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    left: 83px;
+    top: 1350px;
+    
+}
+.s6{
+    position: absolute;
+    height: 1500px;
+    left: 333px;
+    top: 685px;
+    
+    font-family: 'xpaider pixel explosion 02';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 23px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2em;
+    
+    color: #C646E6;
+    
+}
+.num6{
+    position: absolute;
+    width: 10px;
+    height: 29px;
+    left: 55px;
+    top: 1380px;
+    
+    font-family: 'xpaider pixel explosion 02';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2em;
+    
+    color: #C646E6;
+    
+}
+.a6{
+    position: absolute;
+    height: 23px;
+    left: 330px;
+    top: 1370px;
+    
+    font-family: 'xpaider pixel explosion 02';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 23px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2em;
+    
+    color: #C646E6;
+}
+
+/* song 7 */
+.c7{
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    left: 83px;
+    top: 1610px;
+    
+}
+.s7{
+    position: absolute;
+    height: 1500px;
+    left: 333px;
+    top: 925px;
+    
+    font-family: 'xpaider pixel explosion 02';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 23px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2em;
+    
+    color: #C646E6;
+    
+}
+.num7{
+    position: absolute;
+    width: 10px;
+    height: 29px;
+    left: 55px;
+    top: 1630px;
+    
+    font-family: 'xpaider pixel explosion 02';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2em;
+    
+    color: #C646E6;
+    
+}
+.a7{
+    position: absolute;
+    height: 23px;
+    left: 330px;
+    top: 1620px;
+    
+    font-family: 'xpaider pixel explosion 02';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 23px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2em;
+    
+    color: #C646E6;
+}
+
+/* song 8 */
+.c8{
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    left: 83px;
+    top: 1860px;
+    
+}
+.s8{
+    position: absolute;
+    height: 1500px;
+    left: 333px;
+    top: 1185px;
+    
+    font-family: 'xpaider pixel explosion 02';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 23px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2em;
+    
+    color: #C646E6;
+    
+}
+.num8{
+    position: absolute;
+    width: 10px;
+    height: 29px;
+    left: 55px;
+    top: 1880px;
+    
+    font-family: 'xpaider pixel explosion 02';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2em;
+    
+    color: #C646E6;
+    
+}
+.a8{
+    position: absolute;
+    height: 23px;
+    left: 330px;
+    top: 1880px;
+    
+    font-family: 'xpaider pixel explosion 02';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 23px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2em;
+    
+    color: #C646E6;
+}
+
+/* song 9 */
+.c9{
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    left: 83px;
+    top: 2100px;
+    
+}
+.s9{
+    position: absolute;
+    height: 1500px;
+    left: 333px;
+    top: 1425px;
+    
+    font-family: 'xpaider pixel explosion 02';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 23px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2em;
+    
+    color: #C646E6;
+    
+}
+.num9{
+    position: absolute;
+    width: 10px;
+    height: 29px;
+    left: 55px;
+    top: 2120px;
+    
+    font-family: 'xpaider pixel explosion 02';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2em;
+    
+    color: #C646E6;
+    
+}
+.a9{
+    position: absolute;
+    height: 23px;
+    left: 330px;
+    top: 2120px;
+    
+    font-family: 'xpaider pixel explosion 02';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 23px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2em;
+    
+    color: #C646E6;
+}
+
+/* song 10 */
+
+.c10{
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    left: 83px;
+    top: 2340px;
+    
+}
+.s10{
+    position: absolute;
+    height: 1500px;
+    left: 333px;
+    top: 1685px;
+    
+    font-family: 'xpaider pixel explosion 02';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 23px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2em;
+    
+    color: #C646E6;
+    
+}
+.num10{
+    position: absolute;
+    width: 10px;
+    height: 29px;
+    left: 55px;
+    top: 2360px;
+    
+    font-family: 'xpaider pixel explosion 02';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2em;
+    
+    color: #C646E6;
+    
+}
+.a10{
+    position: absolute;
+    height: 23px;
+    left: 330px;
+    top: 2380px;
+    
+    font-family: 'xpaider pixel explosion 02';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 23px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2em;
+    
+    color: #C646E6;
+}
+
+/* song 11 */
+
+.c11{
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    left: 83px;
+    top: 2600px;
+    
+}
+.s11{
+    position: absolute;
+    height: 1500px;
+    left: 333px;
+    top: 1945px;
+    
+    font-family: 'xpaider pixel explosion 02';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 23px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2em;
+    
+    color: #C646E6;
+    
+}
+.num11{
+    position: absolute;
+    width: 10px;
+    height: 29px;
+    left: 55px;
+    top: 2620px;
+    
+    font-family: 'xpaider pixel explosion 02';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2em;
+    
+    color: #C646E6;
+    
+}
+.a11{
+    position: absolute;
+    height: 23px;
+    left: 330px;
+    top: 2640px;
+    
+    font-family: 'xpaider pixel explosion 02';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 23px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2em;
+    
+    color: #C646E6;
+}
+
+/* song 12 */
+.c12{
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    left: 83px;
+    top: 2840px;
+    
+}
+.s12{
+    position: absolute;
+    height: 1500px;
+    left: 333px;
+    top: 2175px;
+    
+    font-family: 'xpaider pixel explosion 02';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 23px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2em;
+    
+    color: #C646E6;
+    
+}
+.num12{
+    position: absolute;
+    width: 10px;
+    height: 29px;
+    left: 55px;
+    top: 2860px;
+    
+    font-family: 'xpaider pixel explosion 02';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2em;
+    
+    color: #C646E6;
+    
+}
+.a12{
+    position: absolute;
+    height: 23px;
+    left: 330px;
+    top: 2870px;
+    
+    font-family: 'xpaider pixel explosion 02';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 23px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2em;
+    
+    color: #C646E6;
+}
+
+/* song 13 */
+.c13{
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    left: 83px;
+    top: 3080px;
+    
+}
+.s13{
+    position: absolute;
+    height: 1500px;
+    left: 333px;
+    top: 2415px;
+    
+    font-family: 'xpaider pixel explosion 02';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 23px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2em;
+    
+    color: #C646E6;
+    
+}
+.num13{
+    position: absolute;
+    width: 10px;
+    height: 29px;
+    left: 55px;
+    top: 3100px;
+    
+    font-family: 'xpaider pixel explosion 02';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2em;
+    
+    color: #C646E6;
+    
+}
+.a13{
+    position: absolute;
+    height: 23px;
+    left: 330px;
+    top: 3110px;
+    
+    font-family: 'xpaider pixel explosion 02';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 23px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2em;
+    
+    color: #C646E6;
+}
+/* song 14 */
+.c14{
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    left: 83px;
+    top: 3330px;
+    
+}
+.s14{
+    position: absolute;
+    height: 1500px;
+    left: 333px;
+    top: 2635px;
+    
+    font-family: 'xpaider pixel explosion 02';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 23px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2em;
+    
+    color: #C646E6;
+    
+}
+.num14{
+    position: absolute;
+    width: 10px;
+    height: 29px;
+    left: 55px;
+    top: 3350px;
+    
+    font-family: 'xpaider pixel explosion 02';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2em;
+    
+    color: #C646E6;
+    
+}
+.a14{
+    position: absolute;
+    height: 23px;
+    left: 330px;
+    top: 3330px;
+    
+    font-family: 'xpaider pixel explosion 02';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 23px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2em;
+    
+    color: #C646E6;
+}
+/* song 15 */
+.c15{
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    left: 83px;
+    top: 3580px;
+    
+}
+.s15{
+    position: absolute;
+    height: 1500px;
+    left: 333px;
+    top: 2905px;
+    
+    font-family: 'xpaider pixel explosion 02';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 23px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2em;
+    
+    color: #C646E6;
+    
+}
+.num15{
+    position: absolute;
+    width: 10px;
+    height: 29px;
+    left: 55px;
+    top: 3600px;
+    
+    font-family: 'xpaider pixel explosion 02';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2em;
+    
+    color: #C646E6;
+    
+}
+.a15{
+    position: absolute;
+    height: 23px;
+    left: 330px;
+    top: 3600px;
+    
+    font-family: 'xpaider pixel explosion 02';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 23px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2em;
+    
+    color: #C646E6;
+}

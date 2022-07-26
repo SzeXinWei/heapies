@@ -46,12 +46,17 @@ body {
     white-space: nowrap;
     /* identical to box height */
     
-    display: flex;
+    /* display: flex;
     align-items: center;
-    letter-spacing: 0.2em;
+    letter-spacing: 0.2em; */
+    margin: 0;
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
     
     color: #C646E6;
-    
 }    
 
 .nothere{
@@ -99,7 +104,7 @@ body {
 }
 
 #next {
-    padding: 20px 30px;
+    padding: 10px 20px;
     background-color: #F20FC6;
     color: black;
     border-radius: 99px;
@@ -107,6 +112,13 @@ body {
     font-family: "xpaider pixel explosion 02";
     text-decoration: none;
     font-size: 20px;
+
+    margin: 0;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
 
 #next:hover {

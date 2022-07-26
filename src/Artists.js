@@ -38,22 +38,22 @@ function SelectDesc(){
 }
 
 
-function Search(){
-    // let navigate = useNavigate();
-    // const { state } = useLocation();
-    // const { emotions } = state;
-    // console.log(emotions);
-    return(
-    <div>
-        <h2 className='nothere'>Not here? No worries.</h2>
-        <h2 className='searchartist'>Search for your favourite ARTISTS here.</h2>
-        {/* <button onClick={() => {navigate("/Artistsconfirmed" , { state: {emotions} })}}>Next</button>
-        <h2 className='next'>NEXT</h2> */}
+// function Search(){
+//     // let navigate = useNavigate();
+//     // const { state } = useLocation();
+//     // const { emotions } = state;
+//     // console.log(emotions);
+//     return(
+//     <div>
+//         <h2 className='nothere'>Not here? No worries.</h2>
+//         <h2 className='searchartist'>Search for your favourite ARTISTS here.</h2>
+//         {/* <button onClick={() => {navigate("/Artistsconfirmed" , { state: {emotions} })}}>Next</button>
+//         <h2 className='next'>NEXT</h2> */}
         
-    </div>
-    )
+//     </div>
+//     )
 
-}
+// }
 
 // // Api call for searching for artist 
 // // Need to create a function to call the api so that the search artist variable is not hardcoded
@@ -100,7 +100,7 @@ function Final_Artists({topArtist}){
             <Who />
             <Artists />
             <SelectDesc />
-            <Search />
+            {/* <Search /> */}
             <div>
                 {topArtist.items.slice(0,6).map((artist,index)=><img id = {`artist${index+1}`} src={artist.images[0].url}/>)}    
             </div>

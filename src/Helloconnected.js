@@ -11,11 +11,11 @@ import {useNavigate} from "react-router-dom"
 //     )
 // }
 
-function Greeting(){
-    return(
-        <h5 className='greeting'>How are you today?</h5>
-    )
-}
+//function Greeting(){
+  //  return(
+    //    <h5 className='greeting'>How are you today?</h5>
+    //)
+//}
 
 function SpotifyConnected(){
     return(
@@ -37,7 +37,6 @@ function Helloconnected({username}){
         <nav>
             <div className="text">
                 <h1 className='name'>Hello, {username}!</h1>
-                <Greeting />
             </div>
 
             <div className="wink">

@@ -37,12 +37,12 @@ const ArtistIds = [
 
 const MultipleCheckBoxComponent = () => {
     const [checked, setChecked] = useState(false);
-  
     return (
       <div>
           {ArtistIds.map((id, index) => {
+            console.log(id.id);
             return (
-              <div key={index} className={id}>
+              <div key={index} className = {id}>
                     <input
                       type="checkbox"
                       id={id}

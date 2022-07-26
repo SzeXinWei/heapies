@@ -5,9 +5,9 @@ import SpotifyWebApi from 'spotify-web-api-js'
 
 const spotifyApi = new SpotifyWebApi();
 
-export function NamesPlaylist(){
+export function NamesPlaylist({username}){
     return(
-        <h1 className='namesplaylist'>Name's playlist &lt;3 </h1>
+        <h1 className='namesplaylist'>{username}'s playlist &lt;3 </h1>
     )
 }
 

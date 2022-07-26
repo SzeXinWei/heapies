@@ -21,6 +21,13 @@ body {
 }
 
 #generate {
+    margin: 0;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-120%, 180%);
+
     padding: 10px 20px;
     background-color: #F20FC6;
     color: black;
@@ -61,27 +68,31 @@ body {
 }    
 
 .c1{
+    margin: 0;
     position: absolute;
-    width: 180px;
-    height: 180px;
-    left: 461px;
-    top: 206px;
+    top: 90%;
+    left: 10%;
+    -ms-transform: translate(-30%, -100%);
+    transform: translate(330%, 140%);
+    
 }
 
 .c2{
+    margin: 0;
     position: absolute;
-    width: 180px;
-    height: 180px;
-    left: 871px;
-    top: 296px;
+    top: 90%;
+    left: 10%;
+    -ms-transform: translate(-30%, -100%);
+    transform: translate(750%, 100%);
 }
 
 .c3{
+    margin: 0;
     position: absolute;
-    width: 180px;
-    height: 180px;
-    left: 641px;
-    top: 476px;
+    top: 90%;
+    left: 10%;
+    -ms-transform: translate(-30%, -100%);
+    transform: translate(510%, 280%);
 }
 
 .artist1{
@@ -170,11 +181,39 @@ body {
     border-radius: 95px;
 }
 
-.reselect{
+#reselect {
+    margin: 0;
     position: absolute;
-    height: 21px;
-    left: 616px;
-    top: 882px;
+    top: 90%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(0%, 180%);
+
+    padding: 10px 20px;
+    background-color: #F20FC6;
+    color: black;
+    border-radius: 99px;
+    font-weight: 800;
+    font-family: "xpaider pixel explosion 02";
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#reselect:hover {
+    background-color: violet;
+    color: black;
+}
+
+/*
+.reselect{
+    
+
+    margin: 0;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-100%, 180%);
 
     font-family: 'xpaider pixel explosion 02';
     font-style: normal;
@@ -183,11 +222,10 @@ body {
     line-height: 21px;
     /* identical to box height */
 
-    display: flex;
+/*    display: flex;
     align-items: center;
     letter-spacing: 0.2em;
 
     color: #C646E6;
 
-
-}
+}*/

@@ -28,6 +28,8 @@ body {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-120%, 180%);
 
+    border: none;
+
     padding: 10px 20px;
     background-color: #F20FC6;
     color: black;
@@ -194,6 +196,8 @@ body {
     left: 45%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(0%, 180%);
+
+    border: none;
 
     padding: 10px 20px;
     background-color: #F20FC6;

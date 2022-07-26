@@ -95,18 +95,12 @@ body {
     left: 479px;
     top: 800px;
   }
-
-<<<<<<< HEAD
-#next {
-=======
+  
   .Feelings {
     display: flex;
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
-
-
->>>>>>> 3eb043336c6fff4ac050da78ede97c29b917cb25
     font-family: inherit;
     padding: 10px 30px;
     background-color: #F20FC6;

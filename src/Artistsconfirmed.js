@@ -1,11 +1,11 @@
-import React from 'react'
+
 import './Artistsconfirmed.css'
 import circle from './images/circle.png'
 import {useNavigate , useLocation} from "react-router-dom"
 import SpotifyWebApi from 'spotify-web-api-js'
+import React, { useEffect, useState } from "react";
 
 const spotifyApi = new SpotifyWebApi();
-
 function Comment(){
     return (
         <h1 className='comment'>I SEE YOU'VE GOT GOOD TASTE :-&#41;</h1>
@@ -42,6 +42,7 @@ function Confirm(){
 }
 
 function Artistsconfirmed({topTracks}){
+    const [playlist, setPlaylist] = useState(null);
     let navigate = useNavigate();
     const { state } = useLocation();
     const { emotions } = state;
@@ -50,8 +51,8 @@ function Artistsconfirmed({topTracks}){
       {seed_artists: "4NHQUGzhtTLFvgF5SZesLK",
       seed_genres: emotions,
       seed_tracks:( ({topTracks}.topTracks[0]) , ({topTracks}.topTracks[1]) , ({topTracks}.topTracks[2]) , ({topTracks}.topTracks[3]) , ({topTracks}.topTracks[4]))
-    } , (error , results) => console.log(results.tracks) )
-
+    } , (error , results) => setPlaylist(playlist) )
+   
     return(
         <div>
             <Comment />

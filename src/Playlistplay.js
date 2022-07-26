@@ -191,17 +191,13 @@ function Save(){
 var username = "";
 function test({token}){
 
-
+    spotifyApi.setAccessToken({token});
     spotifyApi.getMe().then(user => {
         username = user.id;
         console.log(username)
     }
     )
-    spotifyApi.createPlaylist(username , "testing playlist").then(
-        function(data){
-            console.log(data);
-        }
-    )
+    spotifyApi.createPlaylist(username , "testing playlist").then()
     alert("Playlist created");
 
 }

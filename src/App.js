@@ -61,7 +61,11 @@ function App() {
               }
             setTopTracks(test);
         }
+
+        
     )
+
+
         //Api to get recommendations
     // spotifyApi.getRecommendations(
     //   {seed_artists: "4NHQUGzhtTLFvgF5SZesLK",

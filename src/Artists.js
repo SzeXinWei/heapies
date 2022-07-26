@@ -1,4 +1,5 @@
 import React from 'react'
+import { useState } from "react";
 import './Artists.css'
 import circle from './images/circle.png'
 import {useNavigate , useLocation} from "react-router-dom"
@@ -13,17 +14,58 @@ function Who(){
     )
 }
 
+const ArtistIds = [
+    {
+      id: "artist1"
+    },
+    {
+      id: "artist2"
+    },
+    {
+      id: "artist3"
+    },
+    {
+      id: "artist4"
+    },
+    {
+      id: "artist5"
+    },
+    {
+      id: "artist6"
+    }
+  ];
 
+const MultipleCheckBoxComponent = () => {
+    const [checked, setChecked] = useState(false);
+  
+    return (
+      <div>
+          {ArtistIds.map((id, index) => {
+            return (
+              <div key={index} className={id}>
+                    <input
+                      type="checkbox"
+                      id={id}
+                      name={id}
+                      value={id}
+                    />
+                </div>
+            );
+          })}
+      </div>
+    );
+  };
 
 function Artists(){
     return(
         <div>
-            <img id='artist1' src={circle} />
+            <img id='artist1' src={circle} />      
             <img id='artist2' src={circle} />
             <img id='artist3' src={circle} />
             <img id='artist4' src={circle} />
             <img id='artist5' src={circle} />
             <img id='artist6' src={circle} />
+            <MultipleCheckBoxComponent/>
         </div>
     )
 }

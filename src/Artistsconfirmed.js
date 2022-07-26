@@ -2,6 +2,9 @@ import React from 'react'
 import './Artistsconfirmed.css'
 import circle from './images/circle.png'
 import {useNavigate , useLocation} from "react-router-dom"
+import SpotifyWebApi from 'spotify-web-api-js'
+
+const spotifyApi = new SpotifyWebApi();
 
 function Comment(){
     return (
@@ -38,9 +41,17 @@ function Confirm(){
     )
 }
 
-function Artistsconfirmed(){
-    
-    
+function Artistsconfirmed({topTracks}){
+    let navigate = useNavigate();
+    const { state } = useLocation();
+    const { emotions } = state;
+    console.log({topTracks});
+    spotifyApi.getRecommendations(
+      {seed_artists: "4NHQUGzhtTLFvgF5SZesLK",
+      seed_genres: emotions,
+      seed_tracks:( ({topTracks}.topTracks[0]) , ({topTracks}.topTracks[1]) , ({topTracks}.topTracks[2]) , ({topTracks}.topTracks[3]) , ({topTracks}.topTracks[4]))
+    } , (error , results) => console.log(results.tracks) )
+
     return(
         <div>
             <Comment />

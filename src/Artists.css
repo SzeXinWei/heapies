@@ -129,7 +129,7 @@ body {
     position: absolute;
     width: 180px;
     height: 180px;
-    left: 162px;
+    left: 300px;
     top: 226px;
 }
 
@@ -137,7 +137,7 @@ body {
     position: absolute;
     width: 180px;
     height: 180px;
-    left: 282px;
+    left: 400px;
     top: 491px;
 
 }
@@ -146,15 +146,15 @@ body {
     position: absolute;
     width: 180px;
     height: 180px;
-    left: 546px;
-    top: 311px;
+    left: 625px;
+    top: 300px;
 }
 
 #artist4{
     position: absolute;
     width: 180px;
     height: 180px;
-    left: 840px;
+    left: 900px;
     top: 193px;
 }
 
@@ -162,7 +162,7 @@ body {
     position: absolute;
     width: 180px;
     height: 180px;
-    left: 930px;
+    left: 1000px;
     top: 489px;
 }
 
@@ -170,6 +170,6 @@ body {
     position: absolute;
     width: 180px;
     height: 180px;
-    left: 1178px;
+    left: 1250px;
     top: 316px;
 }

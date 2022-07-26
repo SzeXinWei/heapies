@@ -5,11 +5,11 @@ import logo from './images/spotifylogo.png'
 import {useNavigate} from "react-router-dom"
 
 
-function HelloName(){
-    return (
-        <h1 className='name'>Hello Name</h1>
-    )
-}
+// function HelloName(){
+//     return (
+//         <h1 className='name'>Hello Name</h1>
+//     )
+// }
 
 function Greeting(){
     return(
@@ -36,7 +36,7 @@ function Helloconnected({username}){
     return(
         <nav>
             <div className="text">
-                <h1 className='name'>Hello {username}</h1>
+                <h1 className='name'>Hello, {username}!</h1>
                 <Greeting />
             </div>
 
@@ -45,12 +45,12 @@ function Helloconnected({username}){
             </div>
 
             <div className="sc">
-                <img className='spotifylogo' src={logo} width = '40px'/>
+                <img className='spotifylogo' src={logo} width = '50px'/>
                 <div className="padding"></div>
                 <SpotifyConnected />
             </div>
 
-            <button className="Feelings" onClick={() => {navigate("/Feelings")}}>Next</button>
+            <button id="next" onClick={() => {navigate("/Feelings")}}>Next</button>
         </nav>   
     )
 

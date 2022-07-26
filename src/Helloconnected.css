@@ -74,7 +74,6 @@ body {
     letter-spacing: 0.2em;
     
     color: #F20FC6;
-  
   }
   
   .wink {
@@ -91,11 +90,23 @@ body {
     top: 800px;
   }
 
-  .Feelings {
+#next {
     font-family: inherit;
     padding: 10px 20px;
     background-color: #F20FC6;
     border-radius: 99px;
     font-weight: 800;
     font-family: "xpaider pixel explosion 02";
+
+    /* margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); */
   }
+
+#next:hover {
+  background-color: violet;
+  color: black;
+}

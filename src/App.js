@@ -84,7 +84,7 @@ function App() {
             <Route path="/feelings" element = {<Feelings/>}/>
             <Route path="/Artists" element = {<Final_Artists topArtist = {topArtist}/>} />
             <Route path="/Artistsconfirmed" element = {<Artistsconfirmed topTracks = {topTracks}/>}/>
-            <Route path="/Playlistplay" element = {<Playlistplay/>}/>
+            <Route path="/Playlistplay" element = {<Playlistplay token = {token}/>}/>
            
 
 

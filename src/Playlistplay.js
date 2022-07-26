@@ -1,6 +1,9 @@
 import React from 'react'
 import './Playlistplay.css'
 import circle from './images/circle.png'
+import SpotifyWebApi from 'spotify-web-api-js'
+
+const spotifyApi = new SpotifyWebApi();
 
 export function NamesPlaylist(){
     return(
@@ -185,6 +188,23 @@ function Save(){
         <p className='save'>SAVE IN SPOTIFY</p>
     )
 }
+var username = "";
+function test({token}){
+
+
+    spotifyApi.getMe().then(user => {
+        username = user.id;
+        console.log(username)
+    }
+    )
+    spotifyApi.createPlaylist(username , "testing playlist").then(
+        function(data){
+            console.log(data);
+        }
+    )
+    alert("Playlist created");
+
+}
 
 function Playlistplay(){
     return(
@@ -207,6 +227,7 @@ function Playlistplay(){
             <Song15 />
             <Play />
             <Save />
+            <button onClick={test}>Create playlist</button>
         </div>
     )
 }

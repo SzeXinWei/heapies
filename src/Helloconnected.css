@@ -80,7 +80,6 @@ body {
     letter-spacing: 0.2em;
     
     color: #F20FC6;
-  
   }
   
   .wink {
@@ -97,6 +96,9 @@ body {
     top: 800px;
   }
 
+<<<<<<< HEAD
+#next {
+=======
   .Feelings {
     display: flex;
     justify-content: center;
@@ -104,10 +106,23 @@ body {
     margin-right: auto;
 
 
+>>>>>>> 3eb043336c6fff4ac050da78ede97c29b917cb25
     font-family: inherit;
     padding: 10px 30px;
     background-color: #F20FC6;
     border-radius: 100px;
     font-weight: 800;
     font-family: "xpaider pixel explosion 02";
+
+    /* margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); */
   }
+
+#next:hover {
+  background-color: violet;
+  color: black;
+}

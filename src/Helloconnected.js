@@ -50,7 +50,7 @@ function Helloconnected({username}){
                 <SpotifyConnected />
             </div>
 
-            <button className="Feelings" onClick={() => {navigate("/Feelings")}}>Next</button>
+            <button id="next" onClick={() => {navigate("/Feelings")}}>Next</button>
         </nav>   
     )
 

@@ -17,6 +17,8 @@ function App() {
   const [username, setUsername] = useState("");
   const [userID, setUserID] = useState("");
   const [topArtist, setTopArtist] = useState(null);
+  const [topTracks, setTopTracks] = useState(null);
+  var test = [];
 
   useEffect(() =>{
     const hash = getTokenFromUrl();
@@ -51,10 +53,13 @@ function App() {
        //Api to get their Top tracks
        spotifyApi.getMyTopTracks(userID).then(
         function(data){
+          setTopTracks(data);
             console.log(data);
             for (let i = 0; i < 5; i++) {
-                console.log(data.items[i])
+              test[i] = (data.items[i].id);
+                console.log(data.items[i].id);
               }
+            setTopTracks(test);
         }
     )
         //Api to get recommendations
@@ -78,7 +83,7 @@ function App() {
             <Route path="/" element = {<Helloconnected username={username}/>} />
             <Route path="/feelings" element = {<Feelings/>}/>
             <Route path="/Artists" element = {<Final_Artists topArtist = {topArtist}/>} />
-            <Route path="/Artistsconfirmed" element = {<Artistsconfirmed/>}/>
+            <Route path="/Artistsconfirmed" element = {<Artistsconfirmed topTracks = {topTracks}/>}/>
             <Route path="/Playlistplay" element = {<Playlistplay/>}/>
            
 

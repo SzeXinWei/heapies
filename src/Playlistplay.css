@@ -141,8 +141,8 @@ nbody {
     position: absolute;
     width: 180px;
     height: 180px;
-    left: 110px;
-    top: 10px;
+    left: -480px;
+    top: -100px;
     
 }
 
@@ -152,8 +152,8 @@ nbody {
     position: absolute;
     width: 180px;
     height: 180px;
-    left: 110px;
-    top: 200px;
+    left: -1235px;
+    top: 190px;
     
 }
 
@@ -226,7 +226,7 @@ nbody {
     width: 180px;
     height: 180px;
     top: 100px;
-    
+    left:-805px
 }
 
 .s3{

@@ -27,6 +27,7 @@ body {
     padding-left: 30px;
   }
   
+
   .name {
     font-family: 'xpaider pixel explosion 02';
     font-weight: 400;
@@ -42,27 +43,32 @@ body {
   
   }
   
-  .greeting {
-    margin: 0;
-    position: absolute;
-    top: 30%;
-    left: 45%;
-       
-    
+  
+  /*.greeting {
+
+   
     font-family: 'xpaider pixel explosion 02';
     font-style: normal;
     font-weight: 900;
     font-size: 40px;
+    padding-bottom: 100px;
 
+    
+    margin: 0;
+    position: absolute;
+    top: 20%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-10%, -30%);
+    
     /* identical to box height */
   
-    display: flex;
+   /* display: flex;
     justify-content: center;
     letter-spacing: 0.2em;
   
     color: #C646E6;
     
-  }
+  }*/
   
   .sc{
    

@@ -3,15 +3,20 @@ body {
   }
 /* TESTING */
 .greeting {
+  margin: 0;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-80%, 10%);
     display: block;
     font-family: 'xpaider pixel explosion 02';
     font-style: normal;
     font-weight: 400;
-    font-size: 30px;
+    font-size: 26px;
   
     color: #F20FC6;
 
-    padding-top: 50px;
   
   }
 

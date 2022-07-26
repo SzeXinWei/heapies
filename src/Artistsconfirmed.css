@@ -75,7 +75,7 @@ body {
     top: 90%;
     left: 10%;
     -ms-transform: translate(-30%, -100%);
-    transform: translate(330%, 140%);
+    transform: translate(517%, 190%);
 
     height: 180px;
     width: 180px;
@@ -88,7 +88,7 @@ body {
     top: 90%;
     left: 10%;
     -ms-transform: translate(-30%, -100%);
-    transform: translate(750%, 100%);
+    transform: translate(1165%, 80%);
 
     height: 180px;
     width: 180px;
@@ -100,7 +100,7 @@ body {
     top: 90%;
     left: 10%;
     -ms-transform: translate(-30%, -100%);
-    transform: translate(510%, 280%);
+    transform: translate(800%, 230%);
 }
 
 .artist1{

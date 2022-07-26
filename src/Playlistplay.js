@@ -2,9 +2,9 @@ import React from 'react'
 import './Playlistplay.css'
 import circle from './images/circle.png'
 
-export function NamesPlaylist(){
+export function NamesPlaylist({username}){
     return(
-        <h1 className='namesplaylist'>Name's playlist &lt;3 </h1>
+        <h1 className='namesplaylist'>{username}'s playlist &lt;3 </h1>
     )
 }
 

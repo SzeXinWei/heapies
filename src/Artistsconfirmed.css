@@ -3,6 +3,39 @@ body {
     display: flex;
     align-items: center;
 }
+
+#reselect {
+    padding: 10px 20px;
+    background-color: #F20FC6;
+    color: black;
+    border-radius: 99px;
+    font-weight: 800;
+    font-family: "xpaider pixel explosion 02";
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#reselect:hover {
+    background-color: violet;
+    color: black;
+}
+
+#generate {
+    padding: 10px 20px;
+    background-color: #F20FC6;
+    color: black;
+    border-radius: 99px;
+    font-weight: 800;
+    font-family: "xpaider pixel explosion 02";
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#generate:hover {
+    background-color: violet;
+    color: black;
+}
+
 .comment {
 
     position: absolute;
@@ -31,32 +64,32 @@ body {
     position: absolute;
     width: 180px;
     height: 180px;
-    left: 416px;
-    top: 223px;
+    left: 461px;
+    top: 206px;
 }
 
 .c2{
     position: absolute;
     width: 180px;
     height: 180px;
-    left: 596px;
-    top: 493px;
+    left: 871px;
+    top: 296px;
 }
 
 .c3{
     position: absolute;
     width: 180px;
     height: 180px;
-    left: 826px;
-    top: 313px;
+    left: 641px;
+    top: 476px;
 }
 
 .artist1{
     position: absolute;
     width: 139px;
     height: 25px;
-    left: 350px;
-    top: 165px;
+    left: 481px;
+    top: 413px;
     
     font-family: 'xpaider pixel explosion 02';
     font-style: normal;
@@ -74,8 +107,8 @@ body {
     position: absolute;
     width: 147px;
     height: 25px;
-    left: 350px;
-    top: 402px;
+    left: 887px;
+    top: 501px;
 
     font-family: 'xpaider pixel explosion 02';
     font-style: normal;
@@ -95,8 +128,8 @@ body {
     position: absolute;
     width: 168px;
     height: 25px;
-    left: 350px;
-    top: 625px;
+    left: 657px;
+    top: 679px;
 
     font-family: 'xpaider pixel explosion 02';
     font-style: normal;

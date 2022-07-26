@@ -11,7 +11,6 @@ body {
     /* height: 130px; */
     left: 81px;
     top: 70px;
-    padding-top: 20px;
     
     font-family: 'xpaider pixel explosion 02';
     font-style: normal;
@@ -46,12 +45,17 @@ body {
     white-space: nowrap;
     /* identical to box height */
     
-    display: flex;
+    /* display: flex;
     align-items: center;
-    letter-spacing: 0.2em;
+    letter-spacing: 0.2em; */
+    margin: 0;
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
     
     color: #C646E6;
-    
 }    
 
 .nothere{
@@ -99,7 +103,7 @@ body {
 }
 
 #next {
-    padding: 20px 30px;
+    padding: 10px 20px;
     background-color: #F20FC6;
     color: black;
     border-radius: 99px;
@@ -107,6 +111,13 @@ body {
     font-family: "xpaider pixel explosion 02";
     text-decoration: none;
     font-size: 20px;
+
+    margin: 0;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
 
 #next:hover {
@@ -118,7 +129,7 @@ body {
     position: absolute;
     width: 180px;
     height: 180px;
-    left: 162px;
+    left: 300px;
     top: 226px;
 }
 
@@ -126,7 +137,7 @@ body {
     position: absolute;
     width: 180px;
     height: 180px;
-    left: 282px;
+    left: 400px;
     top: 491px;
 
 }
@@ -135,15 +146,15 @@ body {
     position: absolute;
     width: 180px;
     height: 180px;
-    left: 546px;
-    top: 311px;
+    left: 625px;
+    top: 300px;
 }
 
 #artist4{
     position: absolute;
     width: 180px;
     height: 180px;
-    left: 840px;
+    left: 900px;
     top: 193px;
 }
 
@@ -151,7 +162,7 @@ body {
     position: absolute;
     width: 180px;
     height: 180px;
-    left: 930px;
+    left: 1000px;
     top: 489px;
 }
 
@@ -159,6 +170,6 @@ body {
     position: absolute;
     width: 180px;
     height: 180px;
-    left: 1178px;
+    left: 1250px;
     top: 316px;
 }

@@ -3,6 +3,46 @@ body {
     display: flex;
     align-items: center;
 }
+
+#reselect {
+    padding: 10px 20px;
+    background-color: #F20FC6;
+    color: black;
+    border-radius: 99px;
+    font-weight: 800;
+    font-family: "xpaider pixel explosion 02";
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#reselect:hover {
+    background-color: violet;
+    color: black;
+}
+
+#generate {
+    margin: 0;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-120%, 180%);
+
+    padding: 10px 20px;
+    background-color: #F20FC6;
+    color: black;
+    border-radius: 99px;
+    font-weight: 800;
+    font-family: "xpaider pixel explosion 02";
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#generate:hover {
+    background-color: violet;
+    color: black;
+}
+
 .comment {
 
     position: absolute;
@@ -28,35 +68,39 @@ body {
 }    
 
 .c1{
+    margin: 0;
     position: absolute;
-    width: 180px;
-    height: 180px;
-    left: 416px;
-    top: 223px;
+    top: 90%;
+    left: 10%;
+    -ms-transform: translate(-30%, -100%);
+    transform: translate(330%, 140%);
+    
 }
 
 .c2{
+    margin: 0;
     position: absolute;
-    width: 180px;
-    height: 180px;
-    left: 596px;
-    top: 493px;
+    top: 90%;
+    left: 10%;
+    -ms-transform: translate(-30%, -100%);
+    transform: translate(750%, 100%);
 }
 
 .c3{
+    margin: 0;
     position: absolute;
-    width: 180px;
-    height: 180px;
-    left: 826px;
-    top: 313px;
+    top: 90%;
+    left: 10%;
+    -ms-transform: translate(-30%, -100%);
+    transform: translate(510%, 280%);
 }
 
 .artist1{
     position: absolute;
     width: 139px;
     height: 25px;
-    left: 350px;
-    top: 165px;
+    left: 481px;
+    top: 413px;
     
     font-family: 'xpaider pixel explosion 02';
     font-style: normal;
@@ -74,8 +118,8 @@ body {
     position: absolute;
     width: 147px;
     height: 25px;
-    left: 350px;
-    top: 402px;
+    left: 887px;
+    top: 501px;
 
     font-family: 'xpaider pixel explosion 02';
     font-style: normal;
@@ -95,8 +139,8 @@ body {
     position: absolute;
     width: 168px;
     height: 25px;
-    left: 350px;
-    top: 625px;
+    left: 657px;
+    top: 679px;
 
     font-family: 'xpaider pixel explosion 02';
     font-style: normal;
@@ -137,11 +181,39 @@ body {
     border-radius: 95px;
 }
 
-.reselect{
+#reselect {
+    margin: 0;
     position: absolute;
-    height: 21px;
-    left: 616px;
-    top: 882px;
+    top: 90%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(0%, 180%);
+
+    padding: 10px 20px;
+    background-color: #F20FC6;
+    color: black;
+    border-radius: 99px;
+    font-weight: 800;
+    font-family: "xpaider pixel explosion 02";
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#reselect:hover {
+    background-color: violet;
+    color: black;
+}
+
+/*
+.reselect{
+    
+
+    margin: 0;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-100%, 180%);
 
     font-family: 'xpaider pixel explosion 02';
     font-style: normal;
@@ -150,11 +222,10 @@ body {
     line-height: 21px;
     /* identical to box height */
 
-    display: flex;
+/*    display: flex;
     align-items: center;
     letter-spacing: 0.2em;
 
     color: #C646E6;
 
-
-}
+}*/

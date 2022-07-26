@@ -45,7 +45,7 @@ function Helloconnected({username}){
             </div>
 
             <div className="sc">
-                <img className='spotifylogo' src={logo} width = '40px'/>
+                <img className='spotifylogo' src={logo} width = '50px'/>
                 <div className="padding"></div>
                 <SpotifyConnected />
             </div>

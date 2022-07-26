@@ -5,6 +5,7 @@ body {
   .text {
     display: block;
     padding-bottom: 100px;
+    
   }
 
   .wink {
@@ -18,6 +19,8 @@ body {
     display: flex;
     justify-content: center;
     font-size: 80px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .padding {
@@ -40,26 +43,29 @@ body {
   }
   
   .greeting {
+    margin: 0;
+    position: absolute;
+    top: 17%;
+    left: 38%;
+       
+    
     font-family: 'xpaider pixel explosion 02';
     font-style: normal;
-    font-weight: 400;
-    font-size: 30px;
-    line-height: 21px;
+    font-weight: 900;
+    font-size: 40px;
+
     /* identical to box height */
   
     display: flex;
-    justify-content: start;
+    justify-content: center;
     letter-spacing: 0.2em;
-    white-space: nowrap;
   
     color: #C646E6;
+    
   }
   
   .sc{
-    width: 459px;
-    height: 36px;
-    left: 573px;
-    top: 776px;
+   
   
     font-family: 'xpaider pixel explosion 02';
     font-style: normal;
@@ -90,11 +96,21 @@ body {
     top: 800px;
   }
 
+<<<<<<< HEAD
 #next {
+=======
+  .Feelings {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+
+
+>>>>>>> 3eb043336c6fff4ac050da78ede97c29b917cb25
     font-family: inherit;
-    padding: 10px 20px;
+    padding: 10px 30px;
     background-color: #F20FC6;
-    border-radius: 99px;
+    border-radius: 100px;
     font-weight: 800;
     font-family: "xpaider pixel explosion 02";
 

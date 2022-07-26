@@ -55,23 +55,23 @@ function Search(){
 
 }
 
-// Api call for searching for artist 
-// Need to create a function to call the api so that the search artist variable is not hardcoded
-// console log helps to check and if yall need the image to display just call it out from the object
-spotifyApi.searchArtists('Justin Bieber').then(
-    function (data) {
-      console.log('Search artists by "Love"', data);
-      console.log(data.artists.href)
-      for (let i = 0; i < data.artists.items.length; i++) {
-        console.log(data.artists.items[i])
-      }
+// // Api call for searching for artist 
+// // Need to create a function to call the api so that the search artist variable is not hardcoded
+// // console log helps to check and if yall need the image to display just call it out from the object
+// spotifyApi.searchArtists('Justin Bieber').then(
+//     function (data) {
+//       console.log('Search artists by "Love"', data);
+//       console.log(data.artists.href)
+//       for (let i = 0; i < data.artists.items.length; i++) {
+//         console.log(data.artists.items[i])
+//       }
       
       
-    },
-    function (err) {
-      console.error(err);
-    }
-  );
+//     },
+//     function (err) {
+//       console.error(err);
+//     }
+//   );
 
 
 //   function getTopArtist({topArtist}){
@@ -87,6 +87,7 @@ spotifyApi.searchArtists('Justin Bieber').then(
 
 
 function Final_Artists({topArtist}){
+    console.log(topArtist);
     let navigate = useNavigate();
     const { state } = useLocation();
     const { emotions } = state;
@@ -100,8 +101,11 @@ function Final_Artists({topArtist}){
             <Artists />
             <SelectDesc />
             <Search />
-            
+            <div>
+                {topArtist.items.slice(0,6).map((artist,index)=><img id = {`artist${index+1}`} src={artist.images[0].url}/>)}    
+            </div>
             <button onClick={() => {navigate("/Artistsconfirmed" , { state: {emotions} })}}>Next</button>
+            
             
             
         </div>

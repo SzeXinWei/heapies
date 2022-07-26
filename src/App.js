@@ -22,9 +22,11 @@ function App() {
     const hash = getTokenFromUrl();
     window.location.hash = "";
     const _token = hash.access_token;
+    console.log(_token);
 
     if (_token){
       setToken(_token)
+      console.log(_token);
       spotifyApi.setAccessToken(_token);
 
       spotifyApi.getMe().then(user => {
@@ -36,7 +38,7 @@ function App() {
       })  
 
       // Api to get their Top artist
-      spotifyApi.getMyTopArtists(userID, {limit: 10}).then(
+      spotifyApi.getMyTopArtists(userID, {limit: 6}).then(
         function(data){
           setTopArtist(data);
             console.log(data);
@@ -56,11 +58,11 @@ function App() {
         }
     )
         //Api to get recommendations
-    spotifyApi.getRecommendations(
-      {seed_artists: "4NHQUGzhtTLFvgF5SZesLK",
-      seed_genres: "Happy",
-      seed_tracks: "0c6xIDDpzE81m2q797ordA"
-    } , (error , results) => console.log(results.tracks[1]) )
+    // spotifyApi.getRecommendations(
+    //   {seed_artists: "4NHQUGzhtTLFvgF5SZesLK",
+    //   seed_genres: "Happy",
+    //   seed_tracks: "0c6xIDDpzE81m2q797ordA"
+    // } , (error , results) => console.log(results.tracks[1]) )
     
       
     }

@@ -4,7 +4,7 @@ body {
 
   .text {
     display: block;
-    padding-bottom: 100px;
+    padding-bottom: 150px;
     
   }
 
@@ -95,12 +95,15 @@ body {
     left: 479px;
     top: 800px;
   }
-  
+
   .Feelings {
     display: flex;
     justify-content: center;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto;}
+
+
+#next {
     font-family: inherit;
     padding: 10px 30px;
     background-color: #F20FC6;

@@ -1,5 +1,5 @@
 .login {
-    /* place-items: center; */
+    place-items: center;
     /* Display: block;
 	/* Margin-left: auto;
 	Margin-right: auto; */
@@ -19,7 +19,7 @@ body {
 .login > h1{
     font-family: "xpaider pixel explosion 02";
     color: #F20FC6;
-    padding-bottom: 20px;
+    padding-top: 200px;
     font-size: 80px;
 }
 

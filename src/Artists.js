@@ -104,8 +104,8 @@ function Final_Artists({topArtist}){
             <div>
                 {topArtist.items.slice(0,6).map((artist,index)=><img id = {`artist${index+1}`} src={artist.images[0].url}/>)}    
             </div>
-            <button onClick={() => {navigate("/Artistsconfirmed" , { state: {emotions} })}}>Next</button>
-            
+            <button id="next" onClick={() => {navigate("/Artistsconfirmed" , { state: {emotions} })}}>Next</button>
+        
             
             
         </div>

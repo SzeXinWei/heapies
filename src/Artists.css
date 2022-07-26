@@ -11,6 +11,7 @@ body {
     /* height: 130px; */
     left: 81px;
     top: 70px;
+    padding-top: 20px;
     
     font-family: 'xpaider pixel explosion 02';
     font-style: normal;
@@ -35,7 +36,7 @@ body {
     width: 221px;
     height: 21px;
     left: 645px;
-    top: 671px;
+    top: 800px;
     
     font-family: 'xpaider pixel explosion 02';
     font-style: normal;
@@ -97,20 +98,20 @@ body {
     color: black;
 }
 
-.next{
-    position: absolute;
-    width: 214px;
-    height: 57px;
-    left: 645px;
-    top: 882px;
-
-    padding: 20px;
+#next {
+    padding: 20px 30px;
     background-color: #F20FC6;
-    border-radius: 95px;
+    color: black;
+    border-radius: 99px;
     font-weight: 800;
     font-family: "xpaider pixel explosion 02";
     text-decoration: none;
-    align-items: center;
+    font-size: 20px;
+}
+
+#next:hover {
+    background-color: violet;
+    color: black;
 }
 
 #artist1 {

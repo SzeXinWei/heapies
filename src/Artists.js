@@ -14,58 +14,108 @@ function Who(){
     )
 }
 
-const ArtistIds = [
-    {
-      id: "artist1"
-    },
-    {
-      id: "artist2"
-    },
-    {
-      id: "artist3"
-    },
-    {
-      id: "artist4"
-    },
-    {
-      id: "artist5"
-    },
-    {
-      id: "artist6"
-    }
-  ];
+// const ArtistIds = [
+//     {
+//       id: "artist1"
+//     },
+//     {
+//       id: "artist2"
+//     },
+//     {
+//       id: "artist3"
+//     },
+//     {
+//       id: "artist4"
+//     },
+//     {
+//       id: "artist5"
+//     },
+//     {
+//       id: "artist6"
+//     }
+//   ];
 
-const MultipleCheckBoxComponent = () => {
-    const [checked, setChecked] = useState(false);
-    return (
-      <div>
-          {ArtistIds.map((id, index) => {
-            console.log(id.id);
-            return (
-              <div key={index} className = {id}>
-                    <input
-                      type="checkbox"
-                      id={id}
-                      name={id}
-                      value={id}
-                    />
-                </div>
-            );
-          })}
-      </div>
-    );
-  };
+// const MultipleCheckBoxComponent = () => {
+//     const [checked, setChecked] = useState(false);
+//     return (
+//       <div>
+//           {ArtistIds.map((id, index) => {
+//             console.log(id.id);
+//             return (
+//               <div key={index} className = {id}>
+//                     <input
+//                       type="checkbox"
+//                       id={id}
+//                       name={id}
+//                       value={id}
+//                     />
+//                 </div>
+//             );
+//           })}
+//       </div>
+//     );
+//   };
+
+const Checkbox = ({ id, label, value, onChange }) => {
+  return (
+    <div>
+      <input 
+        id={id} 
+        type="checkbox" 
+        checked={value} 
+        onChange={onChange} 
+      />
+      <label htmlFor={id}>{label}</label>
+    </div>
+  );
+};
 
 function Artists(){
     return(
         <div>
-            <img id='artist1' src={circle} />      
+            <img id='artist1' src={circle} />
+            <Checkbox 
+              id="artist1" 
+              label=""
+              // value={checked} 
+              // onChange={onChange} 
+            />      
             <img id='artist2' src={circle} />
+            <Checkbox 
+              id="artist2" 
+              label=""
+              // value={checked} 
+              // onChange={onChange} 
+            />   
             <img id='artist3' src={circle} />
+            <Checkbox 
+              id="artist3" 
+              label=""
+              // value={checked} 
+              // onChange={onChange} 
+            />   
             <img id='artist4' src={circle} />
+            <Checkbox 
+              id="artist4" 
+              label=""
+              // value={checked} 
+              // onChange={onChange} 
+            />   
             <img id='artist5' src={circle} />
+            <Checkbox 
+              id="artist5" 
+              label=""
+              // value={checked} 
+              // onChange={onChange} 
+            />   
             <img id='artist6' src={circle} />
-            <MultipleCheckBoxComponent/>
+            <Checkbox 
+              id="artist6" 
+              label=""
+              // value={checked} 
+              // onChange={onChange} 
+            />   
+            {/* <MultipleCheckBoxComponent/> */}
         </div>
     )
 }

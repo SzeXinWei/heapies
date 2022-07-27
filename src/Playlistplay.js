@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import './Playlistplay.css'
 import circle from './images/circle.png'
 import SpotifyWebApi from 'spotify-web-api-js'
+import { isCompositeComponent } from "react-dom/test-utils";
 
 const spotifyApi = new SpotifyWebApi();
 
@@ -205,16 +206,30 @@ var test_json = {};
 
 function Playlistplay({token}){
     const [userId, setUserId] = useState("");
+
+    useEffect(() =>{
     spotifyApi.setAccessToken({token}.token);
+
     console.log({token}.token);
     spotifyApi.getMe().then(user => {
         setUserId(user?.id);
       })
-      function create({token}){
-        spotifyApi.setAccessToken({token}.token);
-        spotifyApi.createPlaylist(userId , "Test playlist", (error , results) => console.log(results))
-        alert("Playlist created");
-      }
+      console.log(userId);
+    }
+
+    )
+
+    function create(){
+        spotifyApi.createPlaylist(userId , {
+            "name": "New Playlist",
+            "description": "New playlist description",
+            "public": false
+          }, (error , results) => console.log(results))
+        }
+          
+    
+    
+
     return(
         <div>
             <NamesPlaylist />

@@ -52,6 +52,8 @@ function Artistsconfirmed({topTracks}){
       seed_genres: emotions,
       seed_tracks:( ({topTracks}.topTracks[0]) , ({topTracks}.topTracks[1]) , ({topTracks}.topTracks[2]) , ({topTracks}.topTracks[3]) , ({topTracks}.topTracks[4]))
     } , (error , results) => setPlaylist(playlist) )
+
+    console.log(playlist);
    
     return(
         <div>

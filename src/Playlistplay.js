@@ -206,11 +206,15 @@ var test_json = {};
 function Playlistplay({token}){
     const [userId, setUserId] = useState("");
     spotifyApi.setAccessToken({token}.token);
+    console.log({token}.token);
     spotifyApi.getMe().then(user => {
         setUserId(user?.id);
       })
-    spotifyApi.createPlaylist(userId , (error , results) => console.log(results))
-      
+      function create({token}){
+        spotifyApi.setAccessToken({token}.token);
+        spotifyApi.createPlaylist(userId , "Test playlist", (error , results) => console.log(results))
+        alert("Playlist created");
+      }
     return(
         <div>
             <NamesPlaylist />
@@ -231,7 +235,7 @@ function Playlistplay({token}){
             <Song15 />
             <Play />
             <Save />
-            {/* <button onClick = {create} >Create playlist</button> */}
+            <button onClick = {create} >Create playlist</button>
         </div>
     )
 }

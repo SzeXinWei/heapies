@@ -224,7 +224,8 @@ function Playlistplay({token}){
             "name": "New Playlist",
             "description": "New playlist description",
             "public": false
-          }, (error , results) => console.log(results))
+          }, (error , results) => console.log(results.id))
+          //spotifyApi.addTracksToPlaylist())
         }
           
     

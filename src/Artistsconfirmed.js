@@ -13,22 +13,9 @@ function Comment(){
     )
 }
 
-function Artists(){
-    return(
-        <div>
-            <img className='c1' src={circle} />
-            <p className='artist1'>Artist 1</p>
-            <img className='c2' src={circle} />
-            <p className='artist2'>Artist 2</p>
-            <img className='c3' src={circle} />
-            <p className='artist3'>Artist 3</p>
-        </div>
-    )
-}
-
 function Confirm(){
     const { state } = useLocation();
-    const { emotions } = state;
+    const { emotions, selectedArtists } = state;
     let navigate = useNavigate();
     return(
         <div>
@@ -44,27 +31,33 @@ function Artistsconfirmed({topTracks}){
     const [playlist, setPlaylist] = useState(null);
     let navigate = useNavigate();
     const { state } = useLocation();
-    const { emotions } = state;
-    console.log({topTracks});
-
+    const { emotions, selectedArtists } = state;
+    // console.log({topTracks});
 
     if(playlist == null){
+        var seedArtists = []
+        for (let artist of selectedArtists) {
+            seedArtists.push(artist.id)
+        }
+
         spotifyApi.getRecommendations(
-            {seed_artists: "4NHQUGzhtTLFvgF5SZesLK",
+            {seed_artists: seedArtists,
             seed_genres: emotions,
             seed_tracks:( ({topTracks}.topTracks[0]) , ({topTracks}.topTracks[1]) , ({topTracks}.topTracks[2]) , ({topTracks}.topTracks[3]) , ({topTracks}.topTracks[4]))
                 } , (error , results) => setPlaylist(results.tracks) )
     }
             
-    
+
  
 
-    console.log(playlist);
+    // console.log(playlist);
    
     return(
         <div>
             <Comment />
-            <Artists />
+            <div>
+                {selectedArtists.map((artist, index) => <img src={artist.images[0].url} />)}
+            </div>
             <button id="reselect" onClick={() => {navigate("/Artists" , { state: {emotions} })}}>I want to reselect</button>
             <button id="generate" onClick={() => {navigate("/Playlistplay" , {state: {playlist}})}}>Generate</button>
         </div>

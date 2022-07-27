@@ -24,29 +24,29 @@ function App() {
     const hash = getTokenFromUrl();
     window.location.hash = "";
     const _token = hash.access_token;
-    console.log(_token);
+    // console.log(_token);
 
     if (_token){
       setToken(_token)
-      console.log(_token);
+      // console.log(_token);
       spotifyApi.setAccessToken(_token);
 
       spotifyApi.getMe().then(user => {
-        console.log(user);
+        // console.log(user);
         setUserID(user?.id);
         setUsername(user?.display_name);
-        console.log(user?.display_name);
-        console.log(user);
+        // console.log(user?.display_name);
+        // console.log(user);
       })  
 
       // Api to get their Top artist
       spotifyApi.getMyTopArtists(userID, {limit: 6}).then(
         function(data){
           setTopArtist(data);
-            console.log(data);
-            for (let i = 0; i < 5; i++) {
-                console.log(data.items[i])
-              }
+            // console.log(data);
+            // for (let i = 0; i < 5; i++) {
+            //     console.log(data.items[i])
+            //   }
         }
     )
 
@@ -54,10 +54,10 @@ function App() {
        spotifyApi.getMyTopTracks(userID).then(
         function(data){
           setTopTracks(data);
-            console.log(data);
+            // console.log(data);
             for (let i = 0; i < 5; i++) {
               test[i] = (data.items[i].id);
-                console.log(data.items[i].id);
+                // console.log(data.items[i].id);
               }
             setTopTracks(test);
         }

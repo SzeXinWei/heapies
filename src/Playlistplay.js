@@ -16,7 +16,7 @@ export function NamesPlaylist({username}){
 export function Song1(){
     const { state } = useLocation();
     const { playlist } = state;
-    console.log(playlist[0].album.images[0].url)
+    // console.log(playlist[0].album.images[0].url)
 
     return(
     
@@ -283,7 +283,7 @@ function Playlistplay({token}){
             <Song14 />
             <Song15 />
             {/* <Play /> */}
-            <button id="createp" onClick = {create} >Create playlist</button>
+            <button id="createp" onClick = {create} style={{"cursor": "pointer"}}>Create playlist</button>
             <Save />
         </div>
     )

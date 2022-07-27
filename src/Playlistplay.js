@@ -3,6 +3,7 @@ import './Playlistplay.css'
 import circle from './images/circle.png'
 import SpotifyWebApi from 'spotify-web-api-js'
 import { isCompositeComponent } from "react-dom/test-utils";
+import {useNavigate , useLocation} from "react-router-dom"
 
 const spotifyApi = new SpotifyWebApi();
 
@@ -189,44 +190,43 @@ function Save(){
         <p className='save'>SAVE IN SPOTIFY</p>
     )
 }
-var username = "";
-var test_json = {};
-// function test({token}){
-//     // [userId, setUserId] = useState("");
-//     // spotifyApi.setAccessToken({token});
-//     spotifyApi.getMe().then(user => {
-//         username = user.id;
-//         console.log(username)
-//     }
-//     )
-//     spotifyApi.createPlaylist(username , test_json)
-//     alert("Playlist created");
 
-// }
 
 function Playlistplay({token}){
     const [userId, setUserId] = useState("");
-
+    const { state } = useLocation();
+    const { playlist } = state;
+    var playlist_array = [];
+    for(let i = 0 ; i<15 ; i++){
+        playlist_array.push(playlist[i].uri)
+    }
     useEffect(() =>{
     spotifyApi.setAccessToken({token}.token);
-
-    console.log({token}.token);
     spotifyApi.getMe().then(user => {
         setUserId(user?.id);
       })
-      console.log(userId);
     }
 
     )
 
+    function addsongs(results){
+        spotifyApi.addTracksToPlaylist(results.id, playlist_array)
+        alert("Playlist created");
+    }
+
     function create(){
         spotifyApi.createPlaylist(userId , {
-            "name": "New Playlist",
-            "description": "New playlist description",
+            "name": "Mood Playlist",
+            "description": "The perfectly curated mood playlist",
             "public": false
-          }, (error , results) => console.log(results.id))
+          }, (error , results) => addsongs(results)
+    
+          
+        )
           //spotifyApi.addTracksToPlaylist())
         }
+
+    
           
     
     

@@ -34,8 +34,7 @@ function Confirm(){
         <div>
             {/* <p className='confirm'>CONFIRM</p>
             <p className='reselect'>I want to reselect.</p> */}
-            <button id="reselect" onClick={() => {navigate("/Artists" , { state: {emotions} })}}>I want to reselect</button>
-            <button id="generate" onClick={() => {navigate("/Playlistplay")}}>Generate</button>
+            
 
         </div>
     )
@@ -54,10 +53,10 @@ function Artistsconfirmed({topTracks}){
             {seed_artists: "4NHQUGzhtTLFvgF5SZesLK",
             seed_genres: emotions,
             seed_tracks:( ({topTracks}.topTracks[0]) , ({topTracks}.topTracks[1]) , ({topTracks}.topTracks[2]) , ({topTracks}.topTracks[3]) , ({topTracks}.topTracks[4]))
-                } , (error , results) => setPlaylist(results) )
+                } , (error , results) => setPlaylist(results.tracks) )
     }
             
-
+    
  
 
     console.log(playlist);
@@ -66,7 +65,8 @@ function Artistsconfirmed({topTracks}){
         <div>
             <Comment />
             <Artists />
-            <Confirm />
+            <button id="reselect" onClick={() => {navigate("/Artists" , { state: {emotions} })}}>I want to reselect</button>
+            <button id="generate" onClick={() => {navigate("/Playlistplay" , {state: {playlist}})}}>Generate</button>
         </div>
     )
 }

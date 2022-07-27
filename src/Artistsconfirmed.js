@@ -47,11 +47,18 @@ function Artistsconfirmed({topTracks}){
     const { state } = useLocation();
     const { emotions } = state;
     console.log({topTracks});
-    spotifyApi.getRecommendations(
-      {seed_artists: "4NHQUGzhtTLFvgF5SZesLK",
-      seed_genres: emotions,
-      seed_tracks:( ({topTracks}.topTracks[0]) , ({topTracks}.topTracks[1]) , ({topTracks}.topTracks[2]) , ({topTracks}.topTracks[3]) , ({topTracks}.topTracks[4]))
-    } , (error , results) => setPlaylist(playlist) )
+
+
+    if(playlist == null){
+        spotifyApi.getRecommendations(
+            {seed_artists: "4NHQUGzhtTLFvgF5SZesLK",
+            seed_genres: emotions,
+            seed_tracks:( ({topTracks}.topTracks[0]) , ({topTracks}.topTracks[1]) , ({topTracks}.topTracks[2]) , ({topTracks}.topTracks[3]) , ({topTracks}.topTracks[4]))
+                } , (error , results) => setPlaylist(results) )
+    }
+            
+
+ 
 
     console.log(playlist);
    

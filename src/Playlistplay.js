@@ -16,7 +16,7 @@ export function NamesPlaylist({username}){
 export function Song1(){
     return(
         <div id='song1'>
-            <img className='c1' src={circle} />
+            <img className='circle1' src={circle} />
             <p className='s1'>SONG</p>
             <p className='a1'>ARTIST</p>
             <p className='num1'>1</p>
@@ -27,7 +27,7 @@ export function Song1(){
 export function Song2(){
     return(
         <div id='song2'>
-            <img className='c2' src={circle} />
+            <img className='circle2' src={circle} />
             <p className='s2'>SONG</p>
             <p className='a2'>ARTIST</p>
             <p className='num2'>2</p>
@@ -38,7 +38,7 @@ export function Song2(){
 export function Song3(){
     return(
         <div id='song3'>
-            <img className='c3' src={circle} />
+            <img className='circle3' src={circle} />
             <p className='s3'>SONG</p>
             <p className='a3'>ARTIST</p>
             <p className='num3'>3</p>
@@ -249,9 +249,9 @@ function Playlistplay({token}){
             <Song13 />
             <Song14 />
             <Song15 />
-            <Play />
+            {/* <Play /> */}
+            <button id="createp" onClick = {create} >Create playlist</button>
             <Save />
-            <button onClick = {create} >Create playlist</button>
         </div>
     )
 }

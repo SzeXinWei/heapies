@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from "react";
 import './Playlistplay.css'
 import circle from './images/circle.png'
 import SpotifyWebApi from 'spotify-web-api-js'
@@ -189,20 +189,28 @@ function Save(){
     )
 }
 var username = "";
-function test({token}){
+var test_json = {};
+// function test({token}){
+//     // [userId, setUserId] = useState("");
+//     // spotifyApi.setAccessToken({token});
+//     spotifyApi.getMe().then(user => {
+//         username = user.id;
+//         console.log(username)
+//     }
+//     )
+//     spotifyApi.createPlaylist(username , test_json)
+//     alert("Playlist created");
 
-    spotifyApi.setAccessToken({token});
+// }
+
+function Playlistplay({token}){
+    const [userId, setUserId] = useState("");
+    spotifyApi.setAccessToken({token}.token);
     spotifyApi.getMe().then(user => {
-        username = user.id;
-        console.log(username)
-    }
-    )
-    spotifyApi.createPlaylist(username , "testing playlist").then()
-    alert("Playlist created");
-
-}
-
-function Playlistplay(){
+        setUserId(user?.id);
+      })
+    spotifyApi.createPlaylist(userId , (error , results) => console.log(results))
+      
     return(
         <div>
             <NamesPlaylist />
@@ -223,7 +231,7 @@ function Playlistplay(){
             <Song15 />
             <Play />
             <Save />
-            <button onClick={test}>Create playlist</button>
+            {/* <button onClick = {create} >Create playlist</button> */}
         </div>
     )
 }
